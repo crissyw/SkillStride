@@ -43,8 +43,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -67,8 +67,8 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .features-icons .features-icons-item {
@@ -123,6 +123,7 @@ header.masthead h1 {
 .cta-form {
   background-color: white;
   padding: 2rem;
+  border-radius: 4px;
 }
 
 footer.footer {
@@ -133,23 +134,12 @@ footer.footer {
 .mission {
   position: relative;
   background-color: #343a40;
-  background: url("../img/mission.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.mission .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+  padding-top: 3rem;
+  padding-bottom: 0rem;
 }
 
 .learn-more {
-  padding-left: 0px;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
