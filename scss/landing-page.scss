@@ -3,6 +3,10 @@
 @import "mixins.scss";
 // Global CSS
 @import "global.scss";
+
+// Custom SASS
+// @import "custom.scss";
+
 // Components
 @import "masthead.scss";
 @import "showcase.scss";
@@ -12,3 +16,7 @@
 @import "footer.scss";
 @import "mission.scss";
 @import "learn-more.scss";
+@import "hover.scss";
+@import "stepper.scss";
+
+
