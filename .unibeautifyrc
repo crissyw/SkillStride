@@ -1,0 +1,14 @@
+{
+  "HTML": {
+    "beautifiers": [
+      "Pretty Diff"
+    ]
+  },
+  "JavaScript": {
+    "beautifiers": [
+      "Pretty Diff",
+      "JS-Beautify",
+      "ESLint"
+    ]
+  }
+}
