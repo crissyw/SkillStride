@@ -1,11 +1,9 @@
 // Core variables and mixins
 @import "variables.scss";
 @import "mixins.scss";
+
 // Global CSS
 @import "global.scss";
-
-// Custom SASS
-// @import "custom.scss";
 
 // Components
 @import "masthead.scss";
@@ -14,9 +12,6 @@
 @import "testimonials.scss";
 @import "call-to-action.scss";
 @import "footer.scss";
-
-// TODO: commenting this out because it's not checked in
-// @import "mission.scss";
-// @import "learn-more.scss";
-// @import "hover.scss";
-// @import "stepper.scss";
+@import "learn-more.scss";
+@import "hover.scss";
+@import "stepper.scss";

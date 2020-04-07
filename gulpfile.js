@@ -77,8 +77,8 @@ function modules() {
   return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS);
 }
 
-// CSS task
-function css() {
+// SCSS task
+function scss() {
   return gulp
     .src("./src/scss/**/*.scss")
     .pipe(plumber())
@@ -93,6 +93,20 @@ function css() {
     .pipe(header(banner, {
       pkg: pkg
     }))
+    .pipe(gulp.dest("./dist/css"))
+    .pipe(rename({
+      suffix: ".min"
+    }))
+    .pipe(cleanCSS())
+    .pipe(gulp.dest("./dist/css"))
+    .pipe(browsersync.stream());
+}
+
+// CSS task
+function css() {
+  return gulp
+    .src("./src/css/**/*.css")
+    .pipe(plumber())
     .pipe(gulp.dest("./dist/css"))
     .pipe(rename({
       suffix: ".min"
@@ -138,10 +152,11 @@ function img() {
 // Watch files
 function watchFiles() {
   gulp.watch("./src/img/**/*", img);
-  gulp.watch("./src/scss/**/*", css);
+  gulp.watch("./src/scss/**/*", scss);
   gulp.watch("./src/js/**/*", js);
   gulp.watch("./src/**/*.njk", html);
   gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch("./src/css/**/*", css);
 }
 
 // Define complex tasks
