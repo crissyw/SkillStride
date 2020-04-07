@@ -11,18 +11,18 @@
   <title>SkillStride</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/custom.css" rel="stylesheet">
-
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- TODO: custom.scss is not checked in? -->
+  <!-- <link href="/css/custom.css" rel="stylesheet"> -->
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic,400italic,700italic"
     rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="/css/index.min.css" rel="stylesheet">
 
 </head>
 
@@ -34,25 +34,25 @@
       <a class="navbar-brand py-0" href="#home-top">
         <img src="/img/logo-side.png" class="d-inline-block align-bottom" alt=""></a>
 
-<!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav ml-auto font-weight-bold">
-      <li class="nav-item">
-        <a class="nav-link" href="#home-top">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="/about.html">About Us</a>
-      </li>
-      <li class="nav-item pl-4">
-        <a class="navbar-btn btn btn-primary font-weight-bold" href="#formspree-section">Contact Us</a>
-      </li>
-    </ul>
-    </div>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto font-weight-bold">
+          <li class="nav-item">
+            <a class="nav-link" href="#home-top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/about.html">About Us</a>
+          </li>
+          <li class="nav-item pl-4">
+            <a class="navbar-btn btn btn-primary font-weight-bold" href="#formspree-section">Contact Us</a>
+          </li>
+        </ul>
+      </div>
   </nav>
 
   <!-- Masthead -->
@@ -69,38 +69,24 @@
           </div>
           <div class="row">
             <div class="col">
-            <h4><small>Native English tutors.<br>Personalized lessons.<br>Anytime, anywhere.</small></h4>
-          </div>
-        </div>
-      </div>
-        
-        </div>
-  </div>
-  </header>
-
-<!-- 
-   // Our Mission
-   <section class="mission bg-light text-left">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-4">Our Mission</h1>
-          <p class="font-italic lead mb-0">To empower Indonesians with the skills they need to succeed in a global economy.</p>
-          <div class="row">
-            <div class="learn-more col-sm-3">
-              <button type="submit" class="btn btn-block btn-lg btn-primary">Learn more!</button>
+              <h4>
+                <small>Native English tutors.<br>Personalized lessons.<br>Anytime, anywhere.</small>
+              </h4>
             </div>
           </div>
         </div>
+
       </div>
-  </section>
- -->
+    </div>
+  </header>
+
+  <!-- // Our Mission <section class="mission bg-light text-left"> <div class="overlay"></div> <div class="container"> <div class="row"> <div class="col-xl-9 mx-auto"> <h1 class="mb-4">Our Mission</h1> <p class="font-italic lead mb-0">To empower Indonesians with the skills they need to succeed in a global economy.</p> <div class="row"> <div class="learn-more col-sm-3"> <button type="submit" class="btn btn-block btn-lg btn-primary">Learn more!</button> </div> </div> </div> </div> </section> -->
 
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
     <div class="container">
-      <H4 class="mb-5 font-weight-light">SkillStride's live online classes, US-based tutors, and parent resources offers students of all ages the opportunity to learn English with a personalized approach.</H4>
+      <h4 class="mb-5 font-weight-light">SkillStride's live online classes, US-based tutors, and parent resources offers
+        students of all ages the opportunity to learn English with a personalized approach.</h4>
       <div class="row">
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
@@ -133,7 +119,6 @@
       </div>
     </div>
   </section>
-  
 
   <!-- Team -->
   <section class="image-grid">
@@ -141,61 +126,64 @@
       <h2 class="mb-5 text-center">Our Team</h2>
       <div class="row d-flex justify-content-center">
 
-<!-- Grid Photo 1-->
-    <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
-      <div class="hover hover-1 text-white rounded img-fluid"><img src="/img/team-2.jpeg" alt="">
-        <div class="hover-overlay"></div>
-        <div class="hover-1-content px-5">
-          <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Peter </span>Gumulia</h3>
-          <p class="hover-1-description font-weight-light">Peter teaches people.</p>
+        <!-- Grid Photo 1-->
+        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+          <div class="hover hover-1 text-white rounded img-fluid"><img src="/img/team-2.jpeg" alt="">
+            <div class="hover-overlay"></div>
+            <div class="hover-1-content px-5">
+              <h3 class="hover-1-title text-uppercase font-weight-bold mb-0">
+                <span class="font-weight-light">Peter
+                </span>Gumulia</h3>
+              <p class="hover-1-description font-weight-light">Peter teaches people.</p>
+            </div>
+          </div>
         </div>
+        <!-- Grid Photo 2-->
+        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+          <div class="hover hover-1 text-white rounded img-fluid"><img src="/img/team-1.jpg" alt="">
+            <div class="hover-overlay"></div>
+            <div class="hover-1-content px-5">
+              <h3 class="hover-1-title text-uppercase font-weight-bold mb-0">
+                <span class="font-weight-light">Sean
+                </span>Widjaja</h3>
+              <p class="hover-1-description font-weight-light">He stole this last name from Crystal.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Grid Photos -->
       </div>
     </div>
-    <!-- Grid Photo 2-->
-    <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
-      <div class="hover hover-1 text-white rounded img-fluid"><img src="/img/team-1.jpg" alt="">
-        <div class="hover-overlay"></div>
-        <div class="hover-1-content px-5">
-          <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Sean </span>Widjaja</h3>
-          <p class="hover-1-description font-weight-light">He stole this last name from Crystal.</p>
-        </div>
-      </div>
-    </div>
-<!-- End Grid Photos -->
-  </div>
-</div>  
-</section>
+  </section>
 
-
-<!-- Testimonials -->
-<section class="testimonials text-center bg-light">
-  <div class="container">
-    <h2 class="mb-5">Testimonials</h2>
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-          <h5>Crystal W.</h5>
-          <p class="font-weight-light mb-0">"OMG I'm learning so much!"</p>
+  <!-- Testimonials -->
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">Testimonials</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+            <h5>Crystal W.</h5>
+            <p class="font-weight-light mb-0">"OMG I'm learning so much!"</p>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-          <h5>Fred S.</h5>
-          <p class="font-weight-light mb-0">"I love learning from SkillStride."</p>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+            <h5>Fred S.</h5>
+            <p class="font-weight-light mb-0">"I love learning from SkillStride."</p>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-          <h5>Sarah W.</h5>
-          <p class="font-weight-light mb-0">"I'm keeping lessons free because of COVID-19!"</p>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+            <h5>Sarah W.</h5>
+            <p class="font-weight-light mb-0">"I'm keeping lessons free because of COVID-19!"</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Call to Action -->
   <section class="call-to-action">
@@ -207,23 +195,23 @@
           <form action="https://formspree.io/mknzyewd" method="POST">
             <div class="row">
               <div class="col">
-              <h3 class="mb-4">Ready to learn?<br>Sign up now!</h3>
+                <h3 class="mb-4">Ready to learn?<br>Sign up now!</h3>
               </div>
             </div>
             <div class="row">
               <div class="col">
                 <div class="form-group mt-2" id="formspree-section">
-              <label>Your email:</label>
-                <input type="text" class="form-control" name="_replyto">
-            </div>
+                  <label>Your email:</label>
+                  <input type="text" class="form-control" name="_replyto">
+                </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-              <label>Your message:</label>
+                <label>Your message:</label>
                 <textarea name="message" class="form-control" placeholder="Tell us about your goals!"></textarea>
                 <br>
-             </div>
+              </div>
             </div>
             <div class="row">
               <div class="col">
@@ -287,48 +275,11 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Button click-to-scroll function -->
-  <script>
-    // Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
-  </script>
+  <script src="/js/index.min.js"></script>
 
 </body>
 
