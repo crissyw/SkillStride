@@ -396,7 +396,7 @@
   }
   
   .lead {
-    font-size: 1.32875rem;
+    font-size: 1.25rem;
     font-weight: 300;
   }
   
@@ -2734,9 +2734,9 @@
     background-color: transparent;
     border: 1px solid transparent;
     padding: 0.5rem 1.1rem;
-    font-size: 0.875rem;
+    font-size: 0.870rem;
     line-height: 1.5;
-    border-radius: 0.25rem;
+    border-radius: 4px;
     -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3377,10 +3377,14 @@
   }
   
   .btn-lg, .btn-group-lg > .btn {
-    padding: 0.5rem 1rem;
-    font-size: 1.32875rem;
-    line-height: 1.5;
-    border-radius: 0.3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    border-width: 2px;
+    font-size: 16px;
+    line-height: 24px;
   }
   
   .btn-sm, .btn-group-sm > .btn {
@@ -10774,11 +10778,11 @@
   }
   
   .btn {
-    border-radius: 1.078em;
+    border-radius: 6px;
   }
   
   .btn-lg, .btn-group-lg > .btn {
-    border-radius: 2.688em;
+    border-radius: 6px;
   }
   
   .btn-sm, .btn-group-sm > .btn {

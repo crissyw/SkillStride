@@ -2,12 +2,12 @@
     display: flex; 
   }
   
-  .events time { 
+  .event-item { 
     position: relative;
     color: #ccc;
     padding: 0 1.5em;  }
   
-  .events time::after { 
+  .events event-item::after { 
      content: "";
      position: absolute;
      z-index: 2;
@@ -47,4 +47,4 @@
   .events { margin: 1em; width: 50%; }
   .events, 
   .events *::before, 
-  .events *::after { box-sizing: border-box; font-family: arial; }
+  .events *::after { box-sizing: border-box; font-family: "Open Sans"; }
