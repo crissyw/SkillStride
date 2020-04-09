@@ -1,0 +1,47 @@
+// Use Bootstrap breakpoints for consistency.
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+// Crop thumbnail images.
+
+.tutors {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.tutor-gallery-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tutor-gallery-image:hover .image {
+    opacity: 0.4;
+}
+
+.tutor-gallery-image:hover .tutor-gallery-text {
+    opacity: 1;
+    font-size: 16px;
+  }
+
+#tutor-gallery {
+  img {
+    height: 75vw;
+    object-fit: cover;
+    
+    @media (min-width: $bootstrap-sm) {
+      height: 35vw;
+    }
+    
+    @media (min-width: $bootstrap-lg) {
+      height: 18vw;
+    }
+  }
+}

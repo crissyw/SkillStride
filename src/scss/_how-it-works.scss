@@ -1,0 +1,14 @@
+.how-it-works {
+    .how-it-works-text {
+      padding: 1rem;
+      object-fit: scale-down;
+    }
+    .how-it-works-img {
+      min-height: 30rem;
+    }
+    @media (min-width: 768px) {
+      .how-it-works-text {
+        padding: 7rem;
+      }
+    }
+  }
