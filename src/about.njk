@@ -27,41 +27,19 @@
   <script src="/vendor/jquery/jquery.min.js"></script>
   <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Button click-to-scroll function -->
-  <script src="/js/index.min.js" defer="defer"></script>
+    <!-- Button click-to-scroll function -->
+    <script src="/js/index.min.js" defer="defer"></script>
+
+    <!-- Include content function -->
+    <script src="/js/universal.min.js"></script>
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light navbar-expand-sm bg-white sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand py-0" href="/index.html">
-        <img src="/img/logo-side.png" class="d-inline-block align-bottom" alt=""></a>
-
-  <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav ml-auto font-weight-bold">
-      <li class="nav-item">
-        <a class="nav-link" href="/index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#home-top">About Us</a>
-      </li>
-      <li class="nav-item pl-4">
-        <a class="navbar-btn btn btn-primary font-weight-bold" href="#formspree-section">Contact Us</a>
-      </li>
-    </ul>
-    </div>
-  </nav>
-
-<!-- END Navigation --> 
+<div data-include="nav" class="sticky-top"></div>
+  <!-- END Navigation --> 
 
 
 <!-- Our Philosophy -->

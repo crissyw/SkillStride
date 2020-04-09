@@ -4512,7 +4512,7 @@
       transition: none;
     }
   }
-  
+
   .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4611,7 +4611,7 @@
   }
   
   .navbar {
-    position: relative;
+    position: sticky;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4642,6 +4642,7 @@
   }
   
   .navbar-brand {
+    position: sticky;
     display: inline-block;
     padding-top: 0.3006875rem;
     padding-bottom: 0.3006875rem;
