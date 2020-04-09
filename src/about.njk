@@ -8,7 +8,7 @@
   <meta name="description" content="About SkillStride">
   <meta name="author" content="Crystal Widjaja">
 
-  <title>SkillStride</title>
+  <title>SkillStride - About Us</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,6 +22,13 @@
 
   <!-- Custom styles for this template -->
   <link href="/css/index.min.css" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Button click-to-scroll function -->
+  <script src="/js/index.min.js" defer="defer"></script>
 
 </head>
 
@@ -71,7 +78,7 @@
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/bg-showcase-2.jpg');"></div>
       <div class="col-lg-6 my-auto showcase-text">
         <h2>Practice speaking immediately</h2>
         <p class="lead mb-0">Our platform provides you with flexible, online scheduling — and all virtual classes. Start learning right away at your own convenience.</p>
@@ -80,7 +87,7 @@
     </div>
     <div class="row no-gutters">
       <div class="col-lg-6 order-lg-2 text-white showcase-img"
-        style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        style="background-image: url('/img/bg-showcase-3.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2>English beyond the classroom</h2>
         <p class="lead mb-0">Our English curriculum equips you with the skills to succeed on much more than just exams. We practice conversational speaking in a low-pressure, everyday real-life setting that encourages you to be both comfortable and confident.</p>
@@ -215,50 +222,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Button click-to-scroll function -->
-  <script>
-    // Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
-  </script>
 
 </body>
 
