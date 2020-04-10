@@ -22,3 +22,7 @@ This website was built for Peter Gumulia and Sean Widjaja's **SkillStride**. I'm
 - `gulp vendor` copies dependencies from node_modules to the vendor directory
 
 You must have npm installed globally in order to use this build environment.
+
+#### Deployment
+
+- Deploy with [GitHub Pages](https://dev.to/peaceiris/deploy-to-github-pages-with-github-actions-for-static-site-generator-1mo6#static-site-generators-with-nodejs)
