@@ -151,17 +151,17 @@ function img() {
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./src/img/**/*", img);
   gulp.watch("./src/scss/**/*", scss);
+  gulp.watch("./src/css/**/*", css);
   gulp.watch("./src/js/**/*", js);
   gulp.watch("./src/**/*.njk", html);
-  gulp.watch("./**/*.html", browserSyncReload);
-  gulp.watch("./src/css/**/*", css);
+  gulp.watch("./src/img/**/*", img);
+  gulp.watch("./dist/*.html", browserSyncReload);
 }
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
-const build = gulp.series(vendor, css);
+const build = gulp.series(vendor, scss, css, js, html, img);
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
 // Export tasks
