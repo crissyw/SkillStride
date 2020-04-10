@@ -1,5 +1,10 @@
 # [SkillStride](N/A)
 
+## Intro
+Hi there :3 This is my first actual production-level website — b gentle. 
+
+This website was built for Peter Gumulia and Sean Widjaja's **SkillStride**. I'm not affiliated with the company.
+
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-landing-page/master/LICENSE)
