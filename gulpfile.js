@@ -11,6 +11,7 @@ const merge = require("merge-stream");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
+sass.compiler = require('sass');
 const nunjucks = require("gulp-nunjucks");
 const data = require("gulp-data");
 const uglify = require("gulp-uglify");
@@ -82,9 +83,9 @@ function scss() {
   return gulp
     .src("./src/scss/**/*.scss")
     .pipe(plumber())
-    .pipe(sass({
-      outputStyle: "expanded",
-      includePaths: "./node_modules",
+    .pipe(sass.sync({
+            outputStyle: "expanded",
+            includePaths: "./node_modules",
     }))
     .on("error", sass.logError)
     .pipe(autoprefixer({
