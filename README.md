@@ -1,5 +1,10 @@
 # [SkillStride](N/A)
 
+## TO-DO
+- Add favicon img
+- Refactor Contact-Us footer into a footer.njk
+- ??
+
 ## Intro
 Hi there :3 This is my first actual production-level website — b gentle. 
 
