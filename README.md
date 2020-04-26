@@ -1,9 +1,7 @@
 # [SkillStride](N/A)
 
 ## TO-DO
-- Add favicon img
 - Refactor Contact-Us footer into a footer.njk
-- On mobile, hamburger menu is unresponsive
 - About Us images are not responsive to auto-sizing
 
 ## Intro
