@@ -2,7 +2,6 @@
 
 ## TO-DO
 - Refactor Contact-Us footer into a footer.njk
-- About Us images are not responsive to auto-sizing
 
 ## Intro
 Hi there :3 This is my first actual production-level website — b gentle. 
