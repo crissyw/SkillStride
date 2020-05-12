@@ -2,6 +2,7 @@
 
 ## TO-DO
 - Refactor Contact-Us footer into a footer.njk
+- Font style of form submission confirmation message is in Arial :(
 
 ## Intro
 Hi there :3 This is my first actual production-level website — b gentle. 
