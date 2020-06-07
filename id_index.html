@@ -46,8 +46,7 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-<!-- Navigation [TODO: Need to move sticky-top class back here instead of in the DOM -->
+<!-- Navigation -->
 <nav class="navbar navbar-light navbar-expand-sm bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand py-0" href="/index.html">
@@ -61,14 +60,18 @@
       <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto font-weight-bold">
+            <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/indonesia-flag.png"> ID
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="/index.html"><img src="img/us-flag.png"> EN</a>
+				</div>
+			</li>
           <li class="nav-item">
-            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link" href="/id_index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="/about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/index.html">Change to English</a>
           </li>
           <li class="nav-item pl-4">
             <a class="navbar-btn btn btn-primary font-weight-bold" href="#formspree-section">Contact Us</a>
