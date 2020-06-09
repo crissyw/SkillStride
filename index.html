@@ -47,7 +47,7 @@
 
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-light navbar-expand-sm bg-light sticky-top">
+<nav class="navbar navbar-light bg-white navbar-expand-sm sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand py-0" href="/index.html">
       <img src="/img/logo-side.png" class="d-inline-block align-bottom" alt=""></a>
@@ -68,7 +68,7 @@
       </div>
     </li>
         <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home</a>
+          <a class="nav-link active" href="/index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="/about.html">About Us</a>
@@ -82,69 +82,108 @@
 </nav>
 
   <!-- Masthead -->
-  <header class="masthead text-white text-left">
+  <header class="masthead text-black text-left">
     <div class="overlay" id="home-top"></div>
     <div class="container">
-      <div class="row">
-        <div class="col-xl-9">
-          <h1 class="mb-2">English Learning Made Easy for Indonesians</h1>
-          <div class="row">
-            <div class="learn-more col-sm-3">
-              <a href="#formspree-section" class="btn btn-primary btn-lg" role="button">Learn more!</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <h5>
-                <small>Native English tutors.<br>Personalized lessons.<br>Anytime, anywhere.</small>
-              </h5>
-            </div>
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-7 mx-auto">
+          <h2 class="mb-3 ">Online English classes with native speakers in the comfort of your own home</h2>
+        </div>
+        <!--Form-->
+        <div class="col-md-4  mx-auto">
+          <div class="cta-form shadow bg-light rounded">
+            <form action="https://formspree.io/mknzyewd" method="POST">
+              <div class="form-row" id="formspree-section">
+                <h4 class="mb-3 text-center">Find out more!</h4>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" placeholder="Full name" name="name"></div>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" placeholder="E-mail address" name="_replyto">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" placeholder="Phone number" name="phone"></div>
+              </div>
+              <div class="form-group m-2">
+                <label for="customerType">I am a:</label><br>
+                <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="parent" autocomplete="on" checked> Parent
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="student" autocomplete="off"> Student
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="btn-block btn-primary">Contact Us</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
+                <!--END Form-->
       </div>
     </div>
+    </div>
   </header>
+  <hr/>
 
   <!-- // Our Mission <section class="mission bg-light text-left"> <div class="overlay"></div> <div class="container"> <div class="row"> <div class="col-xl-9 mx-auto"> <h1 class="mb-4">Our Mission</h1> <p class="font-italic lead mb-0">To empower Indonesians with the skills they need to succeed in a global economy.</p> <div class="row"> <div class="learn-more col-sm-3"> <button type="submit" class="btn btn-block btn-lg btn-primary">Learn more!</button> </div> </div> </div> </div> </section> -->
 
   <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
+  <section class="features-icons bg-white text-center">
     <div class="container">
-      <h4 class="mb-5 font-weight-light">SkillStride's live online classes, US-based tutors, and parent resources offers
-        students of all ages the opportunity to learn English with a personalized approach.</h4>
-      <div class="row">
-        <div class="col-lg-4">
+      <h2 class="mb-5">Why Kreasi?</h2>
+      <div class="row justify-content-between">
+        <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-screen-desktop m-auto text-primary"></i>
             </div>
-            <h3>Native Speakers</h3>
-            <p class="lead mb-0">Learn from the experts — our native English-speaking tutors!</p>
+            <h4>Native Speakers</h4>
+            <p class="lead mb-0">Learn from one of our qualified and personable coaches!</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-layers m-auto text-primary"></i>
             </div>
-            <h3>Learn Anywhere</h3>
-            <p class="lead mb-0">Live online sessions from the comfort of your own home!</p>
+            <h4>Anywhere, Anytime</h4>
+            <p class="lead mb-0">Take online classes from your own home at a time that best suits you</p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+        <div class="col-lg-3">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-check m-auto text-primary"></i>
             </div>
-            <h3>Get Results</h3>
-            <p class="lead mb-0">Customize your personalized learning plan with our engaging and interactive curriculum!
-            </p>
+            <h4>Custom Programs</h4>
+            <p class="lead mb-0">Mix and match writing, reading or speaking based on your passions and goals</p>
           </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h4>Multiple Formats</h4>
+            <p class="lead mb-0">Private or group lessons. The choice is yours!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-2"> 
+        <div class= "mx-auto text-center">
+        <a href="#formspree-section" class="btn btn-primary btn-lg mt-3" role="button">Find out how it works!</a>
         </div>
       </div>
     </div>
   </section>
-
+  <hr/>
 
 
   <!-- How It Works -->
