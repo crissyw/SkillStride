@@ -6,3 +6,4 @@ jQuery.each(includes, function(){
     $(this).load(file);
 });
 });
+
