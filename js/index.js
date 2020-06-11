@@ -5,6 +5,7 @@ $('a[href*="#"]')
     .not('[href="#0"]')
     .not('[href="#recipeCarousel"]')
     .not('[href="#collapse-collapsed"]')
+    .not('[href="#myCarousel"]')
     .click(function (event) {
         // On-page links
         if (
@@ -21,7 +22,7 @@ $('a[href*="#"]')
                 event.preventDefault();
                 $("html, body").animate(
                     {
-                        scrollTop: target.offset().top,
+                        scrollTop: target.offset().top - 120,
                     },
                     1000,
                     function () {
@@ -42,25 +43,26 @@ $('a[href*="#"]')
         }
     });
 
+/* Carousel
 $('#recipeCarousel').carousel({
     interval: 10000
     })
     
-    $('.carousel .carousel-item').each(function(){
-        var minPerSlide = 4;
-        var next = $(this).next();
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 4;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
         if (!next.length) {
-        next = $(this).siblings(':first');
+            next = $(this).siblings(':first');
         }
+        
         next.children(':first-child').clone().appendTo($(this));
-        
-        for (var i=0;i<minPerSlide;i++) {
-            next=next.next();
-            if (!next.length) {
-                next = $(this).siblings(':first');
-            }
-            
-            next.children(':first-child').clone().appendTo($(this));
-        }
-    });
-        
+    }
+});
+ */

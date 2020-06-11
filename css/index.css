@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/SkillStride-LandingPage/blob/master/LICENSE)
  */
 
+@charset "UTF-8";
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -81,8 +82,8 @@ header.masthead h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
@@ -90,6 +91,144 @@ header.masthead h1 {
 .testimonials .testimonial-item img {
   max-width: 12rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.carousel {
+  margin: 50px auto;
+}
+
+.carousel .item {
+  color: #999;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 13px;
+}
+
+.carousel .media {
+  position: relative;
+  padding: 0 0 0 20px;
+  margin-left: 20px;
+}
+
+.carousel .media img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+
+.carousel .testimonial {
+  color: #fff;
+  position: relative;
+  background: #9b9b9b;
+  padding: 15px;
+  margin: 0 0 20px 20px;
+}
+
+.carousel .testimonial::before, .carousel .testimonial::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.carousel .testimonial::before {
+  width: 20px;
+  height: 20px;
+  background: #9b9b9b;
+  box-shadow: inset 12px 0 13px rgba(0, 0, 0, 0.5);
+}
+
+.carousel .testimonial::after {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+
+.carousel .item .row > div:first-child .testimonial {
+  margin: 0 20px 20px 0;
+}
+
+.carousel .item .row > div:first-child .media {
+  margin-left: 0;
+}
+
+.carousel .testimonial p {
+  text-indent: 40px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.carousel .testimonial p::before {
+  content: "";
+  color: #fff;
+  font-weight: bold;
+  font-size: 68px;
+  line-height: 70px;
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+
+.carousel .overview {
+  padding: 3px 0 0 15px;
+}
+
+.carousel .overview .details {
+  padding: 5px 0 8px;
+}
+
+.carousel .overview b {
+  text-transform: uppercase;
+  color: #7D97BF;
+}
+
+.carousel .carousel-control {
+  width: 30px;
+  height: 30px;
+  background: #666;
+  text-shadow: none;
+  top: -35px;
+}
+
+.carousel-control i {
+  font-size: 16px;
+}
+
+.carousel-control.left {
+  left: auto;
+  right: 40px;
+}
+
+.carousel-control.right {
+  left: auto;
+}
+
+.carousel-indicators {
+  bottom: -80px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+  margin: 1px 4px;
+}
+
+.carousel-indicators li {
+  background: #e2e2e2;
+  border: 4px solid #fff;
+}
+
+.carousel-indicators li.active {
+  color: #fff;
+  background: #7D97BF;
+  border: 5px double;
 }
 
 .call-to-action {
@@ -120,8 +259,46 @@ header.masthead h1 {
 }
 
 footer.footer {
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
+}
+
+.ready-to-get-started {
+  position: relative;
+  background-color: #343a40;
+  background: url("/img/footer-wave.svg") no-repeat center top;
+  background-size: cover;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.ready-to-get-started h1 {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  .ready-to-get-started {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .ready-to-get-started h1 {
+    font-size: 3rem;
+  }
+}
+
+.jumbotron-fluid {
+  position: relative;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.jumbotron-fluid .overlay {
+  position: relative;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
 }
 
 .learn-more {
@@ -319,47 +496,6 @@ footer.footer {
   }
 }
 
-@media (max-width: 768px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
-  }
-
-  .carousel-inner .carousel-item > div:first-child {
-    display: block;
-  }
-}
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-/* display 3 */
-@media (min-width: 768px) {
-  .carousel-inner .carousel-item-right.active,
-.carousel-inner .carousel-item-next {
-    transform: translateX(33.333%);
-  }
-
-  .carousel-inner .carousel-item-left.active,
-.carousel-inner .carousel-item-prev {
-    transform: translateX(-33.333%);
-  }
-}
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left {
-  transform: translateX(0);
-}
-
-.card-header .fa {
-  transition: 0.3s transform ease-in-out;
-}
-
-.card-header .collapsed .fa {
-  transform: rotate(90deg);
-}
-
-.card-body {
-  font-size: small;
-  padding: 7px;
+.tutor-name h5 {
+  margin-bottom: 0px;
 }
