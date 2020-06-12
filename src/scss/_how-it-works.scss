@@ -12,3 +12,108 @@
       }
     }
   }
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .content + .content {
+  margin-top: 50px;
+}
+
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .content ul li {
+  padding-bottom: 10px;
+}
+
+.features .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #3b4ef8;
+}
+
+.features .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Risk Free To Try Banner
+--------------------------------------------------------------*/
+.risk-free-to-try {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 2rem;
+  h1 {
+    font-size: 2rem;
+  }
+  @media (min-width: 768px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+.risk-free-to-try .jumbotron-fluid {
+  position:relative;
+  left:0;
+  width: 100%;
+  background-color: rgba(#b2c7e6, 0.3);
+}
+
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq {
+  padding: 60px 0;
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  padding: 0 0 20px 25px;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: #3b4ef8;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.faq .faq-list i {
+  font-size: 18px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+}
+
+.faq .faq-list p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.faq .faq-list a.collapse {
+  color: #3b4ef8;
+}
+
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #3b4ef8;
+}
+
+.faq .faq-list a.collapsed i::before {
+  content: "\eab2" !important;
+}
