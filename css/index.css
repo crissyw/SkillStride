@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/SkillStride-LandingPage/blob/master/LICENSE)
  */
 
+@charset "UTF-8";
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -18,6 +19,62 @@ h6 {
   font-weight: 700;
 }
 
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f9f9fa;
+}
+
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.section-title h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: black;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title span {
+  position: absolute;
+  top: 30px;
+  color: #f0f1f3;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 575px) {
+  .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .section-title span {
+    font-size: 38px;
+  }
+}
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -304,84 +361,56 @@ footer.footer {
   padding-bottom: 1rem;
 }
 
-.image-grid {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px 20px;
+  background: #fff;
 }
 
-.hover {
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 100%;
+.team .member img {
+  max-width: 100%;
+  margin: 0 0 30px 0;
 }
 
-.hover-overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 90;
-  transition: all 0.4s;
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
 }
 
-.hover img {
-  width: 100%;
-  min-height: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.3s;
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
 }
 
-.hover-content {
-  position: relative;
-  z-index: 99;
-}
-
-/* Image Grid ============================== */
-.hover-1 img {
-  width: 105%;
-  position: absolute;
-  top: 0;
-  left: -5%;
-  transition: all 0.3s;
-}
-
-.hover-1-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 99;
-  transition: all 0.4s;
-}
-
-.hover-1 .hover-overlay {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.hover-1-description {
+.team .member p {
+  padding-top: 10px;
   font-size: 14px;
-  transform: translateY(0.5rem);
-  transition: all 0.4s;
-  opacity: 0;
+  font-style: italic;
+  color: #aaaaaa;
 }
 
-.hover-1:hover .hover-1-content {
-  bottom: 2rem;
+.team .member .social {
+  margin-top: 15px;
 }
 
-.hover-1:hover .hover-1-description {
-  opacity: 1;
-  transform: none;
+.team .member .social a {
+  color: #919191;
+  transition: 0.3s;
 }
 
-.hover-1:hover img {
-  left: 0;
+.team .member .social a:hover {
+  color: #16df7e;
 }
 
-.hover-1:hover .hover-overlay {
-  opacity: 0;
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
 }
 
 .events li {
@@ -451,6 +480,112 @@ footer.footer {
   .how-it-works .how-it-works-text {
     padding: 7rem;
   }
+}
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .content + .content {
+  margin-top: 50px;
+}
+
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .content ul li {
+  padding-bottom: 10px;
+}
+
+.features .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #3b4ef8;
+}
+
+.features .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Risk Free To Try Banner
+--------------------------------------------------------------*/
+.risk-free-to-try {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 2rem;
+}
+.risk-free-to-try h1 {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  .risk-free-to-try {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .risk-free-to-try h1 {
+    font-size: 3rem;
+  }
+}
+
+.risk-free-to-try .jumbotron-fluid {
+  position: relative;
+  left: 0;
+  width: 100%;
+  background-color: rgba(178, 199, 230, 0.3);
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq {
+  padding: 60px 0;
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  padding: 0 0 20px 25px;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: #3b4ef8;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.faq .faq-list i {
+  font-size: 18px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+}
+
+.faq .faq-list p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.faq .faq-list a.collapse {
+  color: #3b4ef8;
+}
+
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #3b4ef8;
+}
+
+.faq .faq-list a.collapsed i::before {
+  content: "" !important;
 }
 
 .tutors {

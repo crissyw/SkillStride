@@ -3,9 +3,9 @@ $('a[href*="#"]')
     // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
-    .not('[href="#recipeCarousel"]')
     .not('[href="#collapse-collapsed"]')
     .not('[href="#myCarousel"]')
+    .not('[href*="#faq"]')
     .click(function (event) {
         // On-page links
         if (
