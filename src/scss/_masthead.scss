@@ -4,8 +4,8 @@ header.masthead {
   background: url('../img/wave-header.svg') no-repeat center top;
   background-size: cover;
   @include background-cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   .overlay {
     position: absolute;
     background-color: white;
