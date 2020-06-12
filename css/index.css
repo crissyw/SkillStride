@@ -24,8 +24,8 @@ header.masthead {
   background: url("../img/wave-header.svg") no-repeat center top;
   background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 header.masthead .overlay {
   position: absolute;
@@ -258,16 +258,16 @@ header.masthead h1 {
 
 footer.footer {
   padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .ready-to-get-started {
   position: relative;
   background-color: #343a40;
-  background: url("/img/footer-wave.svg") no-repeat center top;
+  background: url("/img/wave-footer.svg") no-repeat center top;
   background-size: cover;
   background-size: cover;
-  padding-top: 2rem;
+  padding-top: 0px;
   padding-bottom: 2rem;
 }
 .ready-to-get-started h1 {
@@ -275,8 +275,8 @@ footer.footer {
 }
 @media (min-width: 768px) {
   .ready-to-get-started {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .ready-to-get-started h1 {
     font-size: 3rem;
@@ -454,8 +454,8 @@ footer.footer {
 }
 
 .tutors {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .tutor-gallery-text {
