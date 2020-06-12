@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/SkillStride-LandingPage/blob/master/LICENSE)
  */
 
-@charset "UTF-8";
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -159,13 +158,12 @@ header.masthead h1 {
 }
 
 .carousel .testimonial p {
-  text-indent: 40px;
+  text-indent: 0px;
   line-height: 21px;
   margin: 0;
 }
 
 .carousel .testimonial p::before {
-  content: "";
   color: #fff;
   font-weight: bold;
   font-size: 68px;
