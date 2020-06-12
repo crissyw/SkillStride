@@ -585,7 +585,7 @@ footer.footer {
 }
 
 .faq .faq-list a.collapsed i::before {
-  content: "" !important;
+  content: "" !important;
 }
 
 .tutors {
