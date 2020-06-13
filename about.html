@@ -14,11 +14,11 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="About SkillStride">
+  <meta name="description" content="Learn English Online">
   <meta name="author" content="Crystal Widjaja">
   <link rel='icon' href='/img/favicon.ico' type='image/x-icon'/>
 
-  <title>SkillStride - About Us</title>
+  <title>SkillStride — Learn English Online</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,75 +37,160 @@
   <script src="/vendor/jquery/jquery.min.js"></script>
   <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Button click-to-scroll function -->
-    <script src="/js/index.min.js" defer="defer"></script>
+  <!-- Button click-to-scroll function -->
+  <script src="/js/index.min.js" defer="defer"></script>
 
-    <!-- Include content function -->
-    <script src="/js/universal.min.js"></script>
+  <!-- Include content function -->
+  <script src="/js/universal.min.js"></script>
+
 
 </head>
 
 <body>
+<!-- Navigation -->
+<nav class="navbar navbar-light bg-white navbar-expand-sm sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand py-0" href="/index.html">
+      <img src="/img/logo-side.png" class="d-inline-block align-bottom" alt=""></a>
 
-  <!-- Navigation -->
-<div data-include="nav" class="sticky-top"></div>
-  <!-- END Navigation --> 
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-<!-- Our Philosophy -->
-<section class="showcase">
-  <div class="container-fluid p-0">
-    <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img">
-        <img class="img-fluid showcase-img" src="/img/bg-showcase-1.jpg" alt="">
-      </div>
-      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Your first class is free</h2>
-        <p class="lead mb-0">SkillStride realizes that every student is unique. We customize your syllabus to meet your personal needs. Our first class helps us learn about your goals and assess your current reading level.</p>
-        <a href="#formspree-section" class="btn btn-primary btn-lg mt-3" role="button">Schedule Now</a>
-      </div>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img">
-        <img class="img-fluid showcase-img" src="/img/bg-showcase-2.jpg" alt="">
-      </div>
-      <div class="col-lg-6 my-auto showcase-text">
-        <h2>Practice speaking immediately</h2>
-        <p class="lead mb-0">Our platform provides you with flexible, online scheduling — and all virtual classes. Start learning right away at your own convenience.</p>
-        <a href="#formspree-section" class="btn btn-primary btn-lg mt-3" role="button">Learn More</a>
-      </div>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img">
-        <img class="img-fluid showcase-img" src="/img/bg-showcase-3.jpg" alt="">
-      </div>
-      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>English beyond the classroom</h2>
-        <p class="lead mb-0">Our English curriculum equips you with the skills to succeed on much more than just exams. We practice conversational speaking in a low-pressure, everyday real-life setting that encourages you to be both comfortable and confident.</p>
-        <a href="#formspree-section" class="btn btn-primary btn-lg mt-3" role="button">Learn More</a>
-      </div>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto font-weight-bold">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/how-it-works.html">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/whats-happening.html">What's Happening</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/about.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/us-flag.png"> English
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/index_id.html"><img src="img/indonesia-flag.png"> Bahasa Indonesia</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-cta-btn" href="#formspree-section">Contact Us</a>
+        </li>
+      </ul>
     </div>
   </div>
-</section>
-<!-- END Our Philosophy-->
+</nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-black text-left">
+    <div class="overlay" id="home-top"></div>
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-7 mx-auto">
+          <h3 class="mb-3 ">We believe every young Indonesian should be equipped with the skill to thrive in a modern workplace.</h3><img class="image w-75 mb-2 align-center" src="/img/masthead-vector.svg">
+        </div>
+        <!--Form-->
+        <div class="col-md-4 mx-auto">
+          <div class="cta-form shadow bg-light rounded">
+            <form action="https://formspree.io/mknzyewd" method="POST">
+              <div class="form-row">
+                <h4 class="mb-3 text-center">Find out more!</h4>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control"  id="formspree-section" placeholder="Full name" name="name"></div>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" placeholder="E-mail address" name="_replyto">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" placeholder="Phone number" name="phone"></div>
+              </div>
+              <div class="form-group m-2">
+                <label for="customerType">I am a:</label><br>
+                <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input type="radio" name="Customer Type" id="parent" autocomplete="Parent" checked> Parent
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="Customer Type" id="student" autocomplete="Student"> Student
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="btn-block btn-primary">Contact Us</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+                <!--END Form-->
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="/img/features-2.svg" class="img-fluid pr-4 align-center" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <h3>Our Core Beliefs</h3>
+          <p>
+            Our goal at Kreasi is to deliver a truly effective and affordable English teaching experience. We’ve seen just how much learning English can unlock: it has broadened our base of knowledge, allowed us to attend top universities abroad and opened us up to jobs where we met so many inspiring coworkers and mentors.
+          </p>
+          
+          <div class="row icon-boxes">
+            <div class="col-md-6">
+              <i class="bx bx-receipt"></i>
+              <h4>Why we're better</h4>
+              <p>We think there is an opportunity to improve upon existing English offerings. In places where quality is better, classes tend to be expensive. Because of this, we’re committed to delivering an English program that is not only effective in building fluency, but does so at a widely affordable price.</p>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Why we're doing this</h4>
+              <p>We hope that by providing this offering, other young Indonesians can have the same opportunities we’ve been so fortunate to have thanks to English (and, by extension, our parents!)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End About Section -->
 
 <!-- ======= Team Section ======= -->
 <section id="team" class="team section-bg">
   <div class="container">
 
     <div class="section-title">
-      <span>Team</span>
-      <h2>Team</h2>
-      <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+      <span>Our Team</span>
+      <h2>Our Team</h2>
+      <p>We are Peter Gumulia and Sean Widjaja. We met quite a while ago and quickly bonded over our passion for travel and education. Our shared gratitude for the educational and work experiences we’ve had is the reason we’ve decided to launch Kreasi.<br>
+        Today, we spend most of our time together finding the best teachers, developing the right curriculum and figuring out how we can provide young Indonesians with access to the skills that we know to be instrumental from our very own experiences. The rare times we’re not doing these things, we’re spending time on our hobbies: for Peter that’s hiking and scuba diving, and for Sean that’s exploring new cities and singing his favorite karaoke track.
+        </p>
     </div>
-
-    <div class="row">
+    <div class="row justify-content-center">
+      
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
         <div class="member">
-          <img src="img/team-1.jpg" alt="">
+          <img src="/img/team-2.jpeg" alt="">
           <h4>Peter Gumulia</h4>
+          <span>Chief Executive Officer</span>
           <p>
-            Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+            Anything you want to put here?
           </p>
           <div class="social">
             <a href=""><i class="icofont-twitter"></i></a>
@@ -118,10 +203,11 @@
 
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
         <div class="member">
-          <img src="img/team-2.jpeg" alt="">
+          <img src="/img/team-1.jpg" alt="">
           <h4>Sean Widjaja</h4>
+          <span>????</span>
           <p>
-            Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+            Anything here?
           </p>
           <div class="social">
             <a href=""><i class="icofont-twitter"></i></a>
@@ -130,85 +216,77 @@
             <a href=""><i class="icofont-linkedin"></i></a>
           </div>
         </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Team Section -->
+
+
+<!-- ======= Cta Section ======= -->
+<section id="cta" class="cta">
+  <div class="container">
+    <div class="row" data-aos="zoom-in">
+      <div class="col-lg-9 text-center text-lg-left">
+        <h3>Ready to get started?</h3>
+        <p> Contact us to schedule a free consultation.</p>
+      </div>
+      <div class="col-lg-3 cta-btn-container text-center">
+        <a class="cta-btn align-middle" href="#formspree-section">Contact Us</a>
       </div>
     </div>
   </div>
-</section><!-- End Team Section -->
+</section>
+<!-- End Cta Section -->
 
- <!-- Call to Action -->
- <section class="call-to-action" id="formspree-section">
-  <div class="overlay"></div>
+<!-- Footer -->
+<footer class="footer bg-light">
   <div class="container">
     <div class="row">
-      <div class="cta-form col-md-5 col-lg-5 col-xl-5">
-        <!--Form-->
-        <div class="row">
-          <div class="col">
-            <h3 class="mb-4">Ready to learn?<br>Sign up now!</h3>
-          </div>
-        </div>
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-        <script>
-          hbspt.forms.create({
-            portalId: "7474469",
-            formId: "1577aec0-29ae-479d-9d23-82c51e760938"
-          });
-        </script>
-        <!-- END Form -->
+      <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item">
+            <a href="#home-top">About</a>
+          </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#formpree-section">Contact</a>
+          </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#">Terms of Use</a>
+          </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#">Privacy Policy</a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-4 mb-lg-0">&copy; SkillStride 2020. All Rights Reserved.</p>
+      </div>
+      <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item mr-3">
+            <a href="#">
+              <i class="fab fa-facebook fa-2x fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item mr-3">
+            <a href="#">
+              <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-instagram fa-2x fa-fw"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-</section>
+  </div>
+</footer>
 
-  <!-- Footer -->
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#home-top">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#formpree-section">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; SkillStride 2020. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7474469.js"></script>
-<!-- End of HubSpot Embed Code -->
 
 </body>
 
