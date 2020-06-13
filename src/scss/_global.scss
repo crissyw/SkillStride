@@ -67,3 +67,88 @@ section {
     font-size: 38px;
   }
 }
+
+/*--------------------------------------------------------------
+# Nav Bar Contact Us Button
+--------------------------------------------------------------*/
+.nav-cta-btn {
+  margin-left: 25px;
+  background: #e2e5fe;
+  color: #4582EC;
+  border-radius: 5px;
+  padding: 8px 25px 10px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.nav-cta-btn:hover {
+  background: #4582EC;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .nav-cta-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Cta Call To Action
+--------------------------------------------------------------*/
+.cta {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.cta h3 {
+  color: #364146;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta p {
+  color: #576971;
+}
+
+.cta-btn {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #4582EC;
+}
+
+.cta-btn:hover {
+  background: #226be8;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .cta {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 769px) {
+  .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
