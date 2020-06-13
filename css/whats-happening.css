@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.7 (https://skillstride.net)
+ * Copyright 2013-2020 Crissy W
+ * Licensed under MIT (https://github.com/BlackrockDigital/SkillStride-LandingPage/blob/master/LICENSE)
+ */
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
+}
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #009cea;
+}
+
+#hero .btn-get-started:hover {
+  background: #008bd1;
+}
+
+#hero .hero-img {
+  text-align: center;
+}
+
+#hero .hero-img img {
+  width: 70%;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+  }
+}
+/*--------------------------------------------------------------
+# Courses Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: left;
+  border: 2px solid #fff;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.services .icon-box .grade-badge {
+  text-align: left;
+  padding: 10px 10px;
+  border: 1px solid #fff;
+  top: -10px;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box .icon i {
+  color: #4582EC;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  padding: 10px 20px 0px 20px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #5f687b;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box .lead {
+  padding: 0px 20px 10px 20px;
+  line-height: 24px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.services .icon-box .fa-ul {
+  padding: 10px 10px 10px 20px;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  list-style-position: outside;
+}
+
+.services .icon-box:hover {
+  border-color: #eaecef;
+}
+
+.services .icon-box:hover h4 a {
+  color: #4582EC;
+  text-decoration: none;
+}

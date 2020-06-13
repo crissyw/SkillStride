@@ -495,59 +495,121 @@ footer.footer {
   margin: 0 2px;
 }
 
-.events li {
-  display: flex;
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
 }
 
-.event-item {
-  position: relative;
-  color: #ccc;
-  padding: 0 1.5em;
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #009cea;
 }
 
-.events event-item::after {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  right: 0;
-  top: 0;
-  transform: translateX(50%);
-  border-radius: 50%;
+#hero .btn-get-started:hover {
+  background: #008bd1;
+}
+
+#hero .hero-img {
+  text-align: center;
+}
+
+#hero .hero-img img {
+  width: 70%;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+  }
+}
+/*--------------------------------------------------------------
+# Courses Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: left;
+  border: 2px solid #fff;
+  transition: all ease-in-out 0.3s;
   background: #fff;
-  border: 1px #ccc solid;
-  width: 0.8em;
-  height: 0.8em;
 }
 
-.events span {
-  padding: 0 1.5em 1.5em 1.5em;
-  position: relative;
+.services .icon-box .grade-badge {
+  text-align: left;
+  padding: 10px 10px;
+  border: 1px solid #fff;
+  top: -10px;
 }
 
-.events span::before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  height: 100%;
-  border-left: 1px #ccc solid;
+.services .icon-box .icon {
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
 }
 
-.events strong {
-  display: block;
-  font-weight: bolder;
+.services .icon-box .icon i {
+  color: #4582EC;
+  font-size: 36px;
+  transition: 0.3s;
 }
 
-.events {
-  margin: 1em;
-  width: 50%;
+.services .icon-box h4 {
+  font-weight: 700;
+  padding: 10px 20px 0px 20px;
+  font-size: 24px;
 }
 
-.events,
-.events *::before,
-.events *::after {
-  box-sizing: border-box;
-  font-family: "Open Sans";
+.services .icon-box h4 a {
+  color: #5f687b;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box .lead {
+  padding: 0px 20px 10px 20px;
+  line-height: 24px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.services .icon-box .fa-ul {
+  padding: 10px 10px 10px 20px;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  list-style-position: outside;
+}
+
+.services .icon-box:hover {
+  border-color: #eaecef;
+}
+
+.services .icon-box:hover h4 a {
+  color: #4582EC;
+  text-decoration: none;
 }
 
 .how-it-works .how-it-works-text {
