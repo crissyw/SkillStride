@@ -48,45 +48,35 @@
 
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-light bg-white navbar-expand-sm sticky-top">
-  <div class="container-fluid">
-    <a class="navbar-brand py-0" href="/index.html">
-      <img src="/img/logo-side.png" class="d-inline-block align-bottom" alt=""></a>
+<div class="the-navbar">
+  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <a href="/index.html" class="navbar-brand">
+          <img src="/img/logo-side.png" height="28" alt="kreasi-logo">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto font-weight-bold">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="/how-it-works.html">How It Works</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/whats-happening.html">What's Happening</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="/about.html">About Us</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/us-flag.png"> English
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/index_id.html"><img src="img/indonesia-flag.png"> Bahasa Indonesia</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav font-weight-bold">
+              <a href="/index.html" class="nav-item nav-link ">Home</a>
+              <a href="/how-it-works.html" class="nav-item nav-link">How It Works</a>
+              <a href="/events.html" class="nav-item nav-link active">Events</a>
+              <a href="/about.html" class="nav-item nav-link">About Us</a>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-cta-btn" href="#formspree-section">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <div class="navbar-nav ml-auto">
+            <div class="dropdown">
+              <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/us-flag.png" > English
+              </button>
+              <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/index_id.html"><img src="img/indonesia-flag.png"> Bahasa Indonesia</a>
+              </div>
+            </div>
+          </div>
+          <a class="nav-cta-btn" href="#formspree-section" data-toggle="collapse" data-target="#navbarCollapse">Contact Us</a>
+      </div>
+  </nav>
+</div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
