@@ -7,11 +7,11 @@ $bootstrap-xl: 1200px;
 /*--------------------------------------------------------------
 # Tutors
 --------------------------------------------------------------*/
-.team .member:hover {
+.tutor .member:hover {
   transform: scale(1.05);
 }
 
-.team .member {
+.tutor .member {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
@@ -19,45 +19,45 @@ $bootstrap-xl: 1200px;
   background: #fff;
 }
 
-.team .member img {
+.tutor .member img {
   max-width: 60%;
   border-radius: 50%;
   margin: 0 0 30px 0;
 }
 
-.team .member h4 {
+.tutor .member h4 {
   font-weight: 700;
   margin-bottom: 1px;
   font-size: 18px;
 }
 
-.team .member span {
+.tutor .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.team .member p {
+.tutor .member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: #aaaaaa;
 }
 
-.team .member .social {
+.tutor .member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.tutor .member .social a {
   color: #919191;
   transition: 0.3s;
 }
 
-.team .member .social a:hover {
+.tutor .member .social a:hover {
   color: #3498db;
 }
 
-.team .member .social i {
+.tutor .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
