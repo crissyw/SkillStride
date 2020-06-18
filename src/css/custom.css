@@ -6982,12 +6982,13 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
+    width: 10px;
+    height: 10px;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
+    border-radius: 100%;
     background-color: #fff;
     background-clip: padding-box;
     border-top: 10px solid transparent;

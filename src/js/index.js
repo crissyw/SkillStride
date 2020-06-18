@@ -44,25 +44,20 @@ $('a[href*="#"]')
     });
 
 /* Carousel
-$('#recipeCarousel').carousel({
-    interval: 10000
-    })
-    
-$('.carousel .carousel-item').each(function(){
-    var minPerSlide = 4;
-    var next = $(this).next();
-    if (!next.length) {
-    next = $(this).siblings(':first');
+// Testimonials carousel (uses the Owl Carousel library)
+  $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      900: {
+        items: 3
+      }
     }
-    next.children(':first-child').clone().appendTo($(this));
-    
-    for (var i=0;i<minPerSlide;i++) {
-        next=next.next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
-        }
-        
-        next.children(':first-child').clone().appendTo($(this));
-    }
-});
- */
+  }); */
