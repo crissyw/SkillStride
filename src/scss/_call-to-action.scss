@@ -20,7 +20,24 @@
   background-color: white;
   padding-bottom: 32px;
   padding-left: 30px;
-  padding-top: 32px;
+  padding-top: 15px;
   padding-right: 30px;
-  border-radius: 5px;
+  border-radius: 8px;
+  border: black solid;
 }
+
+.cta-form .form-row {
+  margin-top: 10px;
+}
+
+.cta-form .form-title {
+  padding-bottom: 2px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  
+}
+.cta-form .btn-block {
+  margin-top: 15px;
+}
+

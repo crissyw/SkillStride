@@ -1,3 +1,18 @@
+/*--------------------------------------------------------------
+# Navigation Bar
+--------------------------------------------------------------*/
+.the-navbar .navbar-nav .nav-item {
+  @media (min-width: 768px) {
+    margin-left: 20px;
+  }
+}
+
+.dropdown-menu {
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+
 footer.footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
