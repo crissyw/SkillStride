@@ -70,12 +70,17 @@ function modules() {
     "!./node_modules/jquery/dist/core.js"
   ])
     .pipe(gulp.dest("./dist/vendor/jquery"));
+  // popper.js, a dependency of bootstrap
+  var popper = gulp.src([
+    "./node_modules/popper.js/dist/*",
+  ])
+      .pipe(gulp.dest("./dist/vendor/popper.js"));
   // Simple Line Icons
   var simpleLineIconsFonts = gulp.src("./node_modules/simple-line-icons/fonts/**")
     .pipe(gulp.dest("./dist/vendor/simple-line-icons/fonts"));
   var simpleLineIconsCSS = gulp.src("./node_modules/simple-line-icons/css/**")
     .pipe(gulp.dest("./dist/vendor/simple-line-icons/css"));
-  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS);
+  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS, popper);
 }
 
 // SCSS task
