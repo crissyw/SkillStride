@@ -1,6 +1,6 @@
 header.masthead {
   position: relative;
-  background-color: #fffff;
+  background-color: #ffffff;
   background: url('../img/wave-header.svg') no-repeat center top;
   background-size: cover;
   @include background-cover;
@@ -14,9 +14,6 @@ header.masthead {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  h1 {
-    // font-size: 2rem;
   }
   @media (min-width: 768px) {
     padding-top: 10rem;

@@ -1,17 +1,3 @@
-body {
-  @include body-font;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @include body-font;
-  font-weight: 700;
-}
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -21,7 +7,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f9fa;
+  background-color: #dedef8;
 }
 
 .section-title {
@@ -31,26 +17,12 @@ section {
 }
 
 .section-title h2 {
-  font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: black;
   position: relative;
   z-index: 2;
 }
 
-.section-title span {
-  position: absolute;
-  top: 30px;
-  color: #f0f1f3;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  font-weight: 700;
-  font-size: 52px;
-  text-transform: uppercase;
-  line-height: 0;
-}
 
 .section-title p {
   margin-bottom: 0;
@@ -73,23 +45,20 @@ section {
 --------------------------------------------------------------*/
 .nav-cta-btn {
   margin-left: 25px;
-  background: #e2e5fe;
-  color: #4582EC;
   border-radius: 5px;
   padding: 8px 25px 10px 25px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  font-family: "Krub", sans-serif;
-  font-weight: 600;
   letter-spacing: 0.5px;
+  background-color: black;
 }
 
 .nav-cta-btn:hover {
-  background: #4582EC;
   color: #fff;
   text-decoration: none;
+  background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -129,11 +98,11 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #4582EC;
+  background: black;
 }
 
 .cta-btn:hover {
-  background: #226be8;
+  background: black;
   color: #fff;
   text-decoration: none;
 }

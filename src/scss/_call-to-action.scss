@@ -1,13 +1,11 @@
 .call-to-action {
   position: relative;
-  background-color: $gray-800;
   background: url('../img/bg-masthead.jpg') no-repeat center center;
   @include background-cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
   .overlay {
     position: absolute;
-    background-color: $gray-900;
     height: 100%;
     width: 100%;
     top: 0;
@@ -41,3 +39,19 @@
   margin-top: 15px;
 }
 
+
+.cta-form .btn-group .btn {
+  border-color: black;
+}
+.cta-form .btn-group .btn:active {
+    color: #fff;
+    background-color: $secondary;
+    border-color: #1d2124;
+  }  
+  .cta-form .btn-group .btn:hover {
+    color: #fff;
+    background-color: $secondary;
+    border-color: #1d2124; }
+    .cta-form .btn-group .btn:focus, .btn.focus {
+    background-color: $secondary;
+    color: black; }
