@@ -35,7 +35,7 @@ $light: $gray-100 !default;
 $dark: $gray-800 !default;
 
 
-
+$body-bg: $white !default;
 $blue: #6A9BF7;
 $purple: #6739E4;
 $green: #2bcc9e;
@@ -63,6 +63,7 @@ $table-dark-bg: $black;
 $input-border-color: $black;
 $nav-tabs-border-color: $black;
 $nav-tabs-link-active-color: $black;
+$nav-tabs-link-active-bg: $body-bg !default;
 $nav-tabs-link-active-border-color: $black $black $nav-tabs-link-active-bg;
 $nav-tabs-link-hover-border-color: $black $black $nav-tabs-border-color;
 $navbar-nav-link-padding-x: 0.5rem;
