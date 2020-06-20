@@ -36,6 +36,16 @@
 }
 .cta-form .btn-block {
   margin-top: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  padding: 5px 25px 8px 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 0;
+;
+
 }
 
 
@@ -44,13 +54,12 @@
 }
 .cta-form .btn-group .btn:active {
     color: #fff;
-    background-color: $secondary;
-    border-color: #1d2124;
+    background-color: $primary;
   }
   .cta-form .btn-group .btn:hover {
     color: #fff;
-    background-color: $secondary;
+    background-color: $primary;
     border-color: #1d2124; }
     .cta-form .btn-group .btn:focus, .btn.focus {
-    background-color: $secondary;
-    color: black; }
+    background-color: $primary;
+    color: white; }
