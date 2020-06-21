@@ -20,3 +20,40 @@
     }
   }
 }
+
+/*--------------------------------------------------------------
+# CTA row Banner with 2 buttons
+--------------------------------------------------------------*/
+
+  @media (min-width: 768px) {
+    .how-it-works-cta-banner {
+      justify-content: center;
+    }
+
+    .how-it-works-cta-banner .find-out-btn {
+      float: right;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0px;    }
+    
+    .how-it-works-cta-banner .contact-us-text {
+      text-align: left;
+      float: left;
+      padding: 0px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .how-it-works-cta-banner {
+      justify-content: center;
+    }
+
+    .how-it-works-cta-banner .find-out-btn {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .how-it-works-cta-banner .contact-us-text {
+      text-align: center;
+    }
+  }
