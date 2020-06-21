@@ -40,7 +40,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding: 10px 0;
+  padding: 8px 0;
   position: relative;
 }
 
@@ -224,8 +224,43 @@ section {
   font-size: 5rem;
 }
 
+/*--------------------------------------------------------------
+# CTA row Banner with 2 buttons
+--------------------------------------------------------------*/
+@media (min-width: 768px) {
+  .how-it-works-cta-banner {
+    justify-content: center;
+  }
+
+  .how-it-works-cta-banner .find-out-btn {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+  }
+
+  .how-it-works-cta-banner .contact-us-text {
+    text-align: left;
+    float: left;
+    padding: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .how-it-works-cta-banner {
+    justify-content: center;
+  }
+
+  .how-it-works-cta-banner .find-out-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .how-it-works-cta-banner .contact-us-text {
+    text-align: center;
+  }
+}
 .carousel {
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 0 70px;
 }
 
@@ -253,7 +288,7 @@ section {
 }
 
 .carousel .testimonial {
-  padding: 30px 0 10px;
+  padding: 20px 0 10px;
 }
 
 .carousel .overview {
@@ -466,7 +501,6 @@ footer.footer {
   left: 0;
   top: 0;
   font-size: 22px;
-  color: #3498db;
 }
 
 .about .icon-boxes {
@@ -481,7 +515,6 @@ footer.footer {
 
 .about .icon-boxes i {
   font-size: 48px;
-  color: #3498db;
 }
 
 .about .icon-boxes p {
@@ -520,7 +553,6 @@ footer.footer {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #aaaaaa;
 }
 
 .team .member .social {
@@ -781,13 +813,8 @@ footer.footer {
 /*--------------------------------------------------------------
 # Tutors
 --------------------------------------------------------------*/
-.tutor .member:hover {
-  transform: scale(1.05);
-}
-
 .tutor .member {
   text-align: center;
-  margin-bottom: 20px;
   padding: 30px 20px;
   background: #fff;
 }
@@ -795,7 +822,7 @@ footer.footer {
 .tutor .member img {
   max-width: 40%;
   border-radius: 50%;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
 }
 
 .tutor .member p {
@@ -809,7 +836,6 @@ footer.footer {
 }
 
 .tutor .member .social a {
-  color: #919191;
   transition: 0.3s;
 }
 
