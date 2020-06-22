@@ -18,7 +18,7 @@
   <meta name="author" content="Crystal Widjaja">
   <link rel='icon' href='/img/favicon.ico' type='image/x-icon'/>
 
-  <title>SkillStride — Learn English Online</title>
+  <title>Kreasi — Learn English Online</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
 <div class="the-navbar">
   <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
       <a href="/index.html" class="navbar-brand">
-          <img src="/img/logo-side.png" height="28" alt="kreasi-logo">
+          <img src="/img/logo-side.jpeg" height="32" alt="kreasi-logo">
       </a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
@@ -56,15 +56,15 @@
 
       <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav font-weight-bold">
-              <a href="/index.html" class="nav-item nav-link ">Home</a>
+              <a href="/index.html" class="nav-item nav-link">Home</a>
               <a href="/how-it-works.html" class="nav-item nav-link">How It Works</a>
               <a href="/events.html" class="nav-item nav-link">Events</a>
               <a href="/about.html" class="nav-item nav-link">About Us</a>
           </div>
-          <!-- TO DO: Make font same as rest of nav -->
+          
           <div class="navbar-nav ml-auto">
             <div class="dropdown">
-              <button class="btn btn-link dropdown-toggle pl-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/us-flag.png" > English
+              <button class="btn btn-link font-weight-bold dropdown-toggle pl-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/us-flag.png" > English
               </button>
               <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="/index_id.html"><img src="img/indonesia-flag.png"> Bahasa Indonesia</a>
@@ -77,61 +77,59 @@
 </div>
 
 
-  <!-- Masthead -->
-  <header class="masthead text-black text-left">
-    <div class="overlay" id="home-top"></div>
-    <div class="container">
-      <div class="row d-flex justify-content-between">
-        <div class="col-md-8 mx-auto">
-          <h2 class="mb-3 ">English learning for everyone</h2>
-          <p class="masthead-subtext">Take online English classes with native speakers anywhere, anytime</p>
-          <img class="image w-75 mb-2 align-center" src="/img/masthead-vector.svg">
-        </div>
-        <!--Form-->
-        <div class="col-md-4 mx-auto">
-          <div class="cta-form shadow bg-light rounded">
-            <form action="https://formspree.io/mknzyewd" method="POST">
-              <div class="form-row">
-                <h4 class="mb-3 text-center">Find out more!</h4>
-              </div>
-              <div class="form-row">
-                <div class="col"><input type="text" class="form-control"  id="formspree-section" placeholder="First name" name="firstName"></div>
-              </div>
-              <div class="form-row">
-                <div class="col"><input type="text" class="form-control"  id="formspree-section" placeholder="Last name" name="lastName"></div>
-              </div>
-              <div class="form-row">
-                <div class="col"><input type="text" class="form-control" placeholder="E-mail address" name="_replyto">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col"><input type="text" class="form-control" placeholder="Phone number" name="phone"></div>
-              </div>
-              <div class="form-group m-2">
-                <label for="customerType">I am a:</label><br>
-                <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
-                  <label class="btn btn-secondary active">
-                    <input type="radio" name="Customer Type" value="parent" id="parent" autocomplete="Parent" checked> Parent
-                  </label>
-                  <label class="btn btn-secondary">
-                    <input type="radio" name="Customer Type" value="student" id="student" autocomplete="Student"> Student
-                  </label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col text-center">
-                  <button type="submit" class="btn-block btn-primary">Contact Us</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-                <!--END Form-->
+<!-- Masthead -->
+<header class="contact-us-masthead text-black text-left">
+  <div class="overlay" id="home-top"></div>
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-between">
+      <div class="col-md-4 mx-auto">
+        <h1 class="display-3">Need help?</h1>
+        <p class="masthead-subtext">Fill out the contact us form and we'll reach out to you.</p>
       </div>
+      <!--Form-->
+      <div class="col-md-3 mx-auto">
+        <div class="cta-form bg-white">
+          <form action="https://formspree.io/mknzyewd" method="POST">
+            <div class="form-title">
+              <h4 class="text-center">Try Kreasi for free!</h4>
+            </div>
+            <div class="form-row">
+              <div class="col"><input type="text" class="form-control"  id="formspree-section" placeholder="First name" name="firstName"></div>
+            </div>
+            <div class="form-row">
+              <div class="col"><input type="text" class="form-control"  id="formspree-section" placeholder="Last name" name="lastName"></div>
+            </div>
+            <div class="form-row">
+              <div class="col"><input type="text" class="form-control" placeholder="E-mail address" name="_replyto">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col"><input type="text" class="form-control" placeholder="Phone number" name="phone"></div>
+            </div>
+            <div class="form-group mt-3 m-2">
+              <label for="customerType">I am a:</label><br>
+              <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+                <label class="btn active">
+                  <input type="radio" name="Customer Type" value="parent" id="parent" autocomplete="Parent" checked=""> Parent
+                </label>
+                <label class="btn">
+                  <input type="radio" name="Customer Type" value="student" id="student" autocomplete="Student"> Student
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                <button type="submit" class="btn-primary btn-block ">Contact Us</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+              <!--END Form-->
     </div>
-    </div>
-  </header>
-  <hr/>
+  </div>
+  </div>
+</header>
 
 
 
@@ -159,7 +157,7 @@
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">&copy; Kreasi 2020. All Rights Reserved.</p>
         </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+        <!-- <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
               <a href="#">
@@ -177,7 +175,7 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
