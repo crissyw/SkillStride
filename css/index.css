@@ -16,6 +16,13 @@ h2 {
   z-index: 2;
 }
 
+h3 {
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  margin-bottom: 11px;
+}
+
 h4 {
   font-weight: 700;
   line-height: 1.3;
@@ -576,58 +583,39 @@ footer.footer {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+.events-masthead {
+  position: relative;
+  background-color: #ffffff;
+  background: url("../img/masthead.svg") no-repeat 80% 20%;
+  background-size: 900px 900px;
+  padding-top: 7rem;
+  padding-bottom: 17rem;
+  margin-bottom: 1rem;
+}
+.events-masthead .overlay {
+  position: absolute;
+  background-color: white;
+  height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.events-masthead h1 {
+  font-weight: 700;
 }
 
-#hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 28px;
-  border-radius: 3px;
-  transition: 0.5s;
-  color: #fff;
-  background: #009cea;
+.masthead-subtext {
+  font-weight: 400;
+  font-size: 36px;
 }
 
-#hero .btn-get-started:hover {
-  background: #008bd1;
-}
-
-#hero .hero-img {
-  text-align: center;
-}
-
-#hero .hero-img img {
-  width: 70%;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-@media (max-width: 992px) {
-  #hero h1 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  #hero h2 {
-    font-size: 20px;
-  }
-}
 /*--------------------------------------------------------------
 # Courses Services
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: left;
-  border: 2px solid #fff;
+  border: 3px solid #000;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -635,8 +623,12 @@ footer.footer {
 .services .icon-box .grade-badge {
   text-align: left;
   padding: 10px 10px;
-  border: 1px solid #fff;
   top: -10px;
+}
+
+.services .icon-box .signup-badge {
+  margin: 10px;
+  float: right;
 }
 
 .services .icon-box .icon {
@@ -645,12 +637,12 @@ footer.footer {
   padding: 20px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box .icon i {
-  color: #4582EC;
+  color: #000;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -662,46 +654,48 @@ footer.footer {
 }
 
 .services .icon-box h4 a {
-  color: #5f687b;
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box .lead {
   padding: 0px 20px 10px 20px;
   line-height: 24px;
-  font-style: italic;
   margin-bottom: 0;
 }
 
 .services .icon-box .fa-ul {
-  padding: px 10px 10px 20px;
+  padding: 5px 15px 0px 5px;
   line-height: 24px;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   list-style-position: outside;
 }
 
-.services .icon-box:hover {
-  border-color: #eaecef;
+.how-it-works-masthead {
+  position: relative;
+  background-color: #ffffff;
+  background: url("../img/masthead.svg") no-repeat 30% 20%;
+  background-size: 1100px 1100px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  margin-bottom: 1rem;
+}
+.how-it-works-masthead .overlay {
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.how-it-works-masthead h1 {
+  font-weight: 700;
 }
 
-.services .icon-box:hover h4 a {
-  color: #4582EC;
-  text-decoration: none;
-}
-
-.how-it-works .how-it-works-text {
-  padding: 1rem;
-  -o-object-fit: scale-down;
-  object-fit: scale-down;
-}
-.how-it-works .how-it-works-img {
-  min-height: 30rem;
-}
-@media (min-width: 768px) {
-  .how-it-works .how-it-works-text {
-    padding: 7rem;
-  }
+.masthead-subtext {
+  font-weight: 400;
+  font-size: 36px;
 }
 
 /*--------------------------------------------------------------
@@ -771,39 +765,30 @@ footer.footer {
 }
 
 .faq .faq-list li {
-  padding: 0 0 20px 25px;
+  padding: 0 0 30px 25px;
 }
 
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #3b4ef8;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .faq .faq-list i {
-  font-size: 18px;
+  font-size: 20px;
   position: absolute;
   left: -25px;
   top: 6px;
 }
 
 .faq .faq-list p {
-  margin-bottom: 20px;
-  font-size: 15px;
-}
-
-.faq .faq-list a.collapse {
-  color: #3b4ef8;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .faq .faq-list a.collapsed {
   color: #343a40;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #3b4ef8;
 }
 
 .faq .faq-list a.collapsed i::before {
