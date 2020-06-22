@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Landing Page v5.0.7 (https://skillstride.net)
+ * Start Bootstrap - Landing Page v5.0.7 (www.kreasilive.com)
  * Copyright 2013-2020 Crissy W
  * Licensed under MIT (https://github.com/BlackrockDigital/SkillStride-LandingPage/blob/master/LICENSE)
  */
@@ -188,8 +188,8 @@ section {
 .masthead {
   position: relative;
   background-color: #ffffff;
-  background: url("../img/masthead.svg") no-repeat 10% 0%;
-  background-size: 1000px 1000px;
+  background: url("../img/masthead.svg") no-repeat 20% -8%;
+  background-size: 900px 900px;
   padding-top: 7rem;
   padding-bottom: 7rem;
   margin-bottom: 1rem;
@@ -201,7 +201,7 @@ section {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0;
 }
 .masthead h1 {
   font-weight: 700;
