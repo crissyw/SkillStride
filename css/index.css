@@ -419,7 +419,12 @@ section {
   border-color: black;
 }
 
-.cta-form .btn-group .btn:active {
+.cta-form .btn-group .active {
+  color: #fff;
+  background-color: #000;
+}
+
+.cta-form .btn-group .btn:focus {
   color: #fff;
   background-color: #000;
 }
