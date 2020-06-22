@@ -1,31 +1,69 @@
-.masthead {
-  position: relative;
-  background-color: #ffffff;
-  background: url('../img/masthead.svg') no-repeat 20% -8%;
-  background-size: 900px 900px;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  margin-bottom: 1rem;
-  .overlay {
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
+@media (min-width: 768px) {
+  .masthead {
+    position: relative;
+    background-color: #ffffff;
+    background: url('../img/masthead.svg') no-repeat 20% -8%;
+    background-size: 900px 900px;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    .overlay {
+      position: absolute;
+      background-color: white;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    h1 {
+      font-weight: 700;
+    }
   }
 
-  h1 {
-    font-weight: 700;
+  .masthead .masthead-subtext {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: .5px;
+    line-height: 1.2;
+    padding-top: 0px;
+    padding-bottom: 15px;
   }
 }
 
-.masthead .masthead-subtext {
-  font-weight: 400;
-  font-size: 32px;
-  letter-spacing: .5px;
-  line-height: 1;
-  padding-top: 0px;
-  padding-bottom: 15px;
+
+@media (max-width: 576px) {
+  .masthead {
+    position: relative;
+    background-color: #ffffff;
+    background: url('../img/masthead.svg') no-repeat;
+    background-position: 0px 100px;
+    background-size: 500px 600px;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    .overlay {
+      position: absolute;
+      background-color: white;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 60px;
+    }
+  }
+
+  .masthead .masthead-subtext {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: .5px;
+    line-height: 1.2;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 7rem;
+  }
 }

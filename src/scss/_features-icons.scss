@@ -1,8 +1,8 @@
-
-.features-icons {
-  background-color: #fff;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+@media (max-width: 524px) {
+  .features-icons {
+    padding-top: 0rem;
+  }
+  
   .features-icons-item {
     padding: 5px 5px;
     text-align: center;
@@ -20,6 +20,28 @@
   }
 }
 
+@media (min-width: 768px) {
+  .features-icons {
+    background-color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    .features-icons-item {
+      padding: 5px 5px;
+      text-align: center;
+      background: transparent;
+      .features-icons-icon img {
+        height: 200px;
+      }
+      &:hover {
+        .features-icons-icon {
+          i {
+            font-size: 5rem;
+          }
+        }
+      }
+    }
+  }
+}
 /*--------------------------------------------------------------
 # CTA row Banner with 2 buttons
 --------------------------------------------------------------*/
