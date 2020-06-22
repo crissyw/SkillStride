@@ -1,10 +1,7 @@
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .contact-us-masthead {
       position: relative;
       background-color: #ffffff;
-      background: url('/img/howitworks-step1-test.svg') no-repeat;
-      background-position: 380px 100px;
-      background-size: 600px 600px;
       padding-top: 7rem;
       padding-bottom: 5rem;
       .overlay {
@@ -28,8 +25,19 @@
       letter-spacing: .5px;
       line-height: 1.2;
       padding-top: 0px;
-      padding-bottom: 15px;
+      margin-bottom: 0px;
     }
+    .hero-img {
+        display: block;
+        max-height: 60%;
+        width: auto;
+        padding-left: 20px;
+        padding-right: 0px;
+        text-align: right;
+        margin: 0 0 0 140px;
+        font-size: 0px;
+      } 
+   
   }
   
   
@@ -37,9 +45,6 @@
     .contact-us-masthead {
       position: relative;
       background-color: #ffffff;
-      background: url('../img/masthead.svg') no-repeat;
-      background-position: 0px 100px;
-      background-size: 500px 600px;
       padding-top: 7rem;
       padding-bottom: 5rem;
       .overlay {
@@ -64,7 +69,14 @@
       letter-spacing: .5px;
       line-height: 1.2;
       padding-top: 0px;
-      padding-bottom: 30px;
-      margin-bottom: 7rem;
+      padding-bottom: 0px;
+      margin-bottom: 0;
     }
   }
+
+  @media (max-width: 992px) {
+    .hero-img {
+        max-width: 100%;
+        padding-top: 0px;
+      }
+}
