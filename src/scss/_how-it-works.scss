@@ -1,8 +1,9 @@
 .how-it-works-masthead {
   position: relative;
   background-color: #ffffff;
-  background: url('../img/masthead.svg') no-repeat 30% 20%;
-  background-size: 1100px 1100px;
+  background: url('../img/howitworks-topbanner.svg') no-repeat;
+  background-position: left 270px top 120px;
+  background-size: 700px 700px;
   padding-top: 7rem;
   padding-bottom: 7rem;
   margin-bottom: 1rem;
@@ -22,12 +23,12 @@
   }
 }
 
-.masthead-subtext {
+.how-it-works-masthead .masthead-subtext {
   font-weight: 400;
   font-size: 36px;
   letter-spacing: .5px;
   line-height: 1;
-  padding-top: 15px;
+  padding-top: 0px;
   padding-bottom: 15px;
 }
 

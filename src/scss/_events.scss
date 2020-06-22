@@ -6,10 +6,10 @@
 .events-masthead {
   position: relative;
   background-color: #ffffff;
-  background: url('../img/masthead.svg') no-repeat 80% 20%;
-  background-size: 900px 900px;
+  background: url('../img/events-topbanner-final.svg') no-repeat 90% 10%;
+  background-size: 700px 700px;
   padding-top: 7rem;
-  padding-bottom: 17rem;
+  padding-bottom: 12rem;
   margin-bottom: 1rem;
   .overlay {
     position: absolute;
@@ -22,6 +22,18 @@
   }
 }
 
+h1 {
+  font-weight: 700;
+}
+
+.events-masthead .masthead-subtext {
+font-weight: 400;
+font-size: 36px;
+letter-spacing: .5px;
+line-height: 1;
+padding-top: 0px;
+padding-bottom: 15px;
+}
 
 /*--------------------------------------------------------------
 # Courses Services
