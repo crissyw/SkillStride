@@ -52,10 +52,15 @@
 .cta-form .btn-group .btn {
   border-color: black;
 }
-.cta-form .btn-group .btn:active {
+.cta-form .btn-group .active {
     color: #fff;
     background-color: $primary;
   }
+
+.cta-form .btn-group .btn:focus {
+  color: #fff;
+  background-color: $primary;
+}
   .cta-form .btn-group .btn:hover {
     color: #fff;
     background-color: $primary;
