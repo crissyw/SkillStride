@@ -119,9 +119,11 @@ section {
 # Cta Call To Action
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
-  background-size: cover;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
+  background-size: cover; */
   padding: 80px 0;
+  background-color: $purple;
+  color: $white;
 }
 
 .cta h2 {

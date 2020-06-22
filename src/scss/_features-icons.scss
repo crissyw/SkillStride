@@ -1,15 +1,14 @@
 
 .features-icons {
-  background-color: #2bcc9e;
+  background-color: #fff;
   padding-top: 5rem;
   padding-bottom: 5rem;
   .features-icons-item {
-    max-width: 20rem;
-    .features-icons-icon {
-      height: 7rem;
-      i {
-        font-size: 4.5rem;
-      }
+    padding: 5px 5px;
+    text-align: center;
+    background: transparent;
+    .features-icons-icon img {
+      height: 200px;
     }
     &:hover {
       .features-icons-icon {
@@ -34,13 +33,19 @@
       float: right;
       display: flex;
       justify-content: flex-end;
-      padding: 0px;    }
+      padding: 0px;    
+    }
     
     .how-it-works-cta-banner .contact-us-text {
       text-align: left;
       float: left;
       padding: 0px;
     }
+  }
+
+  .how-it-works-cta-banner .contact-us-text a {
+    font-weight: 700;
+    font-size: 20px;
   }
 
   @media (max-width: 768px) {
