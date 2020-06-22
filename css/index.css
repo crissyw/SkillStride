@@ -5,6 +5,17 @@
  */
 
 @charset "UTF-8";
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
 h2 {
   font-size: 36px;
   font-weight: 700;
@@ -197,6 +208,10 @@ section {
 .masthead-subtext {
   font-weight: 400;
   font-size: 36px;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .showcase .showcase-text {
@@ -385,7 +400,7 @@ section {
 .cta-form .btn-block {
   margin-top: 15px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 15px;
   display: inline-block;
   letter-spacing: 0.5px;
   padding: 5px 25px 8px 25px;
@@ -588,15 +603,7 @@ footer.footer {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.5;
-}
-.events-masthead h1 {
-  font-weight: 700;
-}
-
-.masthead-subtext {
-  font-weight: 400;
-  font-size: 36px;
+  opacity: 0.6;
 }
 
 /*--------------------------------------------------------------
@@ -686,6 +693,10 @@ footer.footer {
 .masthead-subtext {
   font-weight: 400;
   font-size: 36px;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /*--------------------------------------------------------------
