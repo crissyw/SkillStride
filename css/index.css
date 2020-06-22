@@ -787,10 +787,15 @@ footer.footer {
 /*--------------------------------------------------------------
 # Tutors
 --------------------------------------------------------------*/
+.tutor {
+  background-color: #f4aa16;
+  padding-bottom: 50px;
+}
+
 .tutor .member {
   text-align: center;
   padding: 30px 20px;
-  background: #fff;
+  background: transparent;
 }
 
 .tutor .member img {
@@ -801,7 +806,7 @@ footer.footer {
 
 .tutor .member p {
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -811,10 +816,6 @@ footer.footer {
 
 .tutor .member .social a {
   transition: 0.3s;
-}
-
-.tutor .member .social a:hover {
-  color: #3498db;
 }
 
 .tutor .member .social i {
