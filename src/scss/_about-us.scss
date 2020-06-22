@@ -48,17 +48,19 @@
 
 .about .icon-boxes p {
   font-size: 15px;
-  color: #848484;
 }
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team {
+  background-color: $yellow;
+}
+
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  padding: 30px 20px;
-  background: #fff;
+  padding: 30px 20px;;
 }
 
 .team .member img {
@@ -66,22 +68,13 @@
   margin: 0 0 30px 0;
 }
 
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
 .team .member span {
-  font-style: italic;
   display: block;
   font-size: 13px;
 }
 
 .team .member p {
   padding-top: 10px;
-  font-size: 14px;
-  font-style: italic;
 }
 
 .team .member .social {
@@ -89,12 +82,8 @@
 }
 
 .team .member .social a {
-  color: #919191;
+  color: #000;
   transition: 0.3s;
-}
-
-.team .member .social a:hover {
-  color: #3498db;
 }
 
 .team .member .social i {
