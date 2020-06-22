@@ -125,9 +125,11 @@ section {
 # Cta Call To Action
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
-  background-size: cover;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
+  background-size: cover; */
   padding: 80px 0;
+  background-color: #6739E4;
+  color: #fff;
 }
 
 .cta h2 {
@@ -186,8 +188,8 @@ section {
 .masthead {
   position: relative;
   background-color: #ffffff;
-  background: url("../img/masthead.svg") no-repeat 30% 20%;
-  background-size: 1100px 1100px;
+  background: url("../img/masthead.svg") no-repeat 10% 0%;
+  background-size: 1000px 1000px;
   padding-top: 7rem;
   padding-bottom: 7rem;
   margin-bottom: 1rem;
@@ -205,12 +207,12 @@ section {
   font-weight: 700;
 }
 
-.masthead-subtext {
+.masthead .masthead-subtext {
   font-weight: 400;
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: 0.5px;
   line-height: 1;
-  padding-top: 15px;
+  padding-top: 0px;
   padding-bottom: 15px;
 }
 
@@ -229,18 +231,17 @@ section {
 }
 
 .features-icons {
-  background-color: #2bcc9e;
+  background-color: #fff;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 .features-icons .features-icons-item {
-  max-width: 20rem;
+  padding: 5px 5px;
+  text-align: center;
+  background: transparent;
 }
-.features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
-}
-.features-icons .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
+.features-icons .features-icons-item .features-icons-icon img {
+  height: 200px;
 }
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
@@ -267,6 +268,11 @@ section {
     padding: 0px;
   }
 }
+.how-it-works-cta-banner .contact-us-text a {
+  font-weight: 700;
+  font-size: 20px;
+}
+
 @media (max-width: 768px) {
   .how-it-works-cta-banner {
     justify-content: center;
@@ -800,13 +806,13 @@ footer.footer {
 # Tutors
 --------------------------------------------------------------*/
 .tutor {
-  background-color: #f4aa16;
+  background-color: #95FBE3;
   padding-bottom: 50px;
 }
 
 .tutor .member {
   text-align: center;
-  padding: 30px 20px;
+  padding: 30px 20px 20px 20px;
   background: transparent;
 }
 
@@ -820,7 +826,7 @@ footer.footer {
 }
 
 .tutor .member p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
 }
 
