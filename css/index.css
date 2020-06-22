@@ -298,20 +298,6 @@ section {
     padding-top: 0px;
   }
 }
-.showcase .showcase-text {
-  padding: 3rem;
-}
-.showcase .showcase-img {
-  min-height: 7rem;
-  -o-object-fit: scale-down;
-  object-fit: scale-down;
-}
-@media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem;
-  }
-}
-
 @media (max-width: 524px) {
   .features-icons {
     padding-top: 3rem;
@@ -602,72 +588,6 @@ footer.footer {
   padding-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
-  .about-us-masthead {
-    position: relative;
-    background-color: #ffffff;
-    background: url("../img/aboutus-topbanner.svg") no-repeat 90% 15%;
-    background-size: 600px 700px;
-    padding-top: 9rem;
-    padding-bottom: 10rem;
-  }
-  .about-us-masthead .overlay {
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-
-  h1 {
-    font-weight: 700;
-  }
-
-  .about-us-masthead .masthead-subtext {
-    font-weight: 400;
-    font-size: 30px;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    padding-top: 0px;
-    padding-bottom: 10px;
-  }
-}
-@media (max-width: 576px) {
-  .about-us-masthead {
-    position: relative;
-    background-color: #ffffff;
-    background: url("../img/aboutus-topbanner.svg") no-repeat;
-    background-position: 40px 220px;
-    background-size: 400px 400px;
-    padding-top: 8rem;
-    padding-bottom: 12rem;
-    margin-bottom: 1rem;
-  }
-  .about-us-masthead .overlay {
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-  .about-us-masthead h1 {
-    font-weight: 700;
-    font-size: 60px;
-  }
-
-  .about-us-masthead .masthead-subtext {
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    padding-top: 5px;
-    margin-bottom: 4rem;
-  }
-}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -912,73 +832,6 @@ footer.footer {
   list-style-position: outside;
 }
 
-@media (min-width: 768px) {
-  .how-it-works-masthead {
-    position: relative;
-    background-color: #ffffff;
-    background: url("../img/howitworks-topbanner.svg") no-repeat;
-    background-position: left 300px top 150px;
-    background-size: 550px 550px;
-    padding-top: 7rem;
-    padding-bottom: 5rem;
-  }
-  .how-it-works-masthead .overlay {
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-  .how-it-works-masthead h1 {
-    font-weight: 700;
-  }
-
-  .how-it-works-masthead .masthead-subtext {
-    font-weight: 400;
-    font-size: 32px;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    padding-top: 0px;
-    padding-bottom: 15px;
-  }
-}
-@media (max-width: 576px) {
-  .how-it-works-masthead {
-    position: relative;
-    background-color: #ffffff;
-    background: url("../img/howitworks-topbanner.svg") no-repeat;
-    background-position: 30px 230px;
-    background-size: 400px 400px;
-    padding-top: 7rem;
-    padding-bottom: 5rem;
-    margin-bottom: 1rem;
-  }
-  .how-it-works-masthead .overlay {
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-  .how-it-works-masthead h1 {
-    font-weight: 700;
-    font-size: 60px;
-  }
-
-  .how-it-works-masthead .masthead-subtext {
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    padding-top: 0px;
-    padding-bottom: 30px;
-    margin-bottom: 14rem;
-  }
-}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
