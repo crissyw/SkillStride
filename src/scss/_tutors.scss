@@ -7,10 +7,15 @@ $bootstrap-xl: 1200px;
 /*--------------------------------------------------------------
 # Tutors
 --------------------------------------------------------------*/
+.tutor {
+  background-color: $yellow;
+  padding-bottom: 50px;
+}
+
 .tutor .member {
   text-align: center;
   padding: 30px 20px;
-  background: #fff;
+  background: transparent;
 }
 
 .tutor .member img {
@@ -21,7 +26,7 @@ $bootstrap-xl: 1200px;
 
 .tutor .member p {
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -33,9 +38,6 @@ $bootstrap-xl: 1200px;
   transition: 0.3s;
 }
 
-.tutor .member .social a:hover {
-  color: #3498db;
-}
 
 .tutor .member .social i {
   font-size: 18px;
