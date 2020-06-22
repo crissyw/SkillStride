@@ -589,16 +589,92 @@ footer.footer {
   padding-bottom: 1rem;
 }
 
+@media (min-width: 768px) {
+  .about-us-masthead {
+    position: relative;
+    background-color: #ffffff;
+    background: url("../img/aboutus-topbanner.svg") no-repeat 90% 15%;
+    background-size: 600px 700px;
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+  }
+  .about-us-masthead .overlay {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+
+  h1 {
+    font-weight: 700;
+  }
+
+  .about-us-masthead .masthead-subtext {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .about-us-masthead {
+    position: relative;
+    background-color: #ffffff;
+    background: url("../img/aboutus-topbanner.svg") no-repeat;
+    background-position: 40px 220px;
+    background-size: 400px 400px;
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    margin-bottom: 1rem;
+  }
+  .about-us-masthead .overlay {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .about-us-masthead h1 {
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .about-us-masthead .masthead-subtext {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    padding-top: 5px;
+    margin-bottom: 4rem;
+  }
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
   padding: 10px 0;
+  background-color: #6A9BF7;
+  text-align: center;
 }
 
-.about h3 {
+.about h2 {
   font-weight: 600;
   font-size: 32px;
+  text-align: center;
+}
+
+.about p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .about ul {
@@ -645,18 +721,22 @@ footer.footer {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background-color: #f4aa16;
+  background-color: #fff;
+}
+
+.team p {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .team .member {
   text-align: center;
-  margin-bottom: 20px;
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 
 .team .member img {
   max-width: 100%;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
 }
 
 .team .member span {
@@ -1011,4 +1091,71 @@ footer.footer {
 .tutor .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+@media (min-width: 768px) {
+  .contact-us-masthead {
+    position: relative;
+    background-color: #ffffff;
+    background: url("/img/howitworks-step1-test.svg") no-repeat;
+    background-position: 380px 100px;
+    background-size: 600px 600px;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+  .contact-us-masthead .overlay {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .contact-us-masthead h1 {
+    font-weight: 700;
+  }
+
+  .contact-us-masthead .masthead-subtext {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .contact-us-masthead {
+    position: relative;
+    background-color: #ffffff;
+    background: url("../img/masthead.svg") no-repeat;
+    background-position: 0px 100px;
+    background-size: 500px 600px;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+  .contact-us-masthead .overlay {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .contact-us-masthead h1 {
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .contact-us-masthead .masthead-subtext {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 7rem;
+  }
 }
