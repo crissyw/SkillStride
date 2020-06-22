@@ -1,17 +1,30 @@
-.how-it-works {
-    .how-it-works-text {
-      padding: 1rem;
-      object-fit: scale-down;
-    }
-    .how-it-works-img {
-      min-height: 30rem;
-    }
-    @media (min-width: 768px) {
-      .how-it-works-text {
-        padding: 7rem;
-      }
-    }
+.how-it-works-masthead {
+  position: relative;
+  background-color: #ffffff;
+  background: url('../img/masthead.svg') no-repeat 30% 20%;
+  background-size: 1100px 1100px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  margin-bottom: 1rem;
+  .overlay {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
   }
+
+  h1 {
+    font-weight: 700;
+  }
+}
+
+.masthead-subtext {
+  font-weight: 400;
+  font-size: 36px;
+}
 
 /*--------------------------------------------------------------
 # Features
@@ -79,39 +92,31 @@
 }
 
 .faq .faq-list li {
-  padding: 0 0 20px 25px;
+  padding: 0 0 30px 25px;
 }
 
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #3b4ef8;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .faq .faq-list i {
-  font-size: 18px;
+  font-size: 20px;
   position: absolute;
   left: -25px;
   top: 6px;
 }
 
 .faq .faq-list p {
-  margin-bottom: 20px;
-  font-size: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
-.faq .faq-list a.collapse {
-  color: #3b4ef8;
-}
 
 .faq .faq-list a.collapsed {
   color: #343a40;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #3b4ef8;
 }
 
 .faq .faq-list a.collapsed i::before {

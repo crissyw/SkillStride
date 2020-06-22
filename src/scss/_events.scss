@@ -1,53 +1,35 @@
 
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-   width: 100%;
-   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
- }
- 
- #hero .btn-get-started {
-   font-family: "Raleway", sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   display: inline-block;
-   padding: 12px 28px;
-   border-radius: 3px;
-   transition: 0.5s;
-   color: #fff;
-   background: #009cea;
- }
- 
- #hero .btn-get-started:hover {
-   background: #008bd1;
- }
- 
- #hero .hero-img {
-   text-align: center;
- }
- 
- #hero .hero-img img {
-   width: 70%;
- }
- 
- @media (min-width: 1024px) {
-   #hero {
-     background-attachment: fixed;
-   }
- }
- 
- @media (max-width: 992px) {
-   #hero h1 {
-     font-size: 32px;
-     line-height: 40px;
-   }
-   #hero h2 {
-     font-size: 20px;
-   }
- }
+.events-masthead {
+  position: relative;
+  background-color: #ffffff;
+  background: url('../img/masthead.svg') no-repeat 80% 20%;
+  background-size: 900px 900px;
+  padding-top: 7rem;
+  padding-bottom: 17rem;
+  margin-bottom: 1rem;
+  .overlay {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+  }
+
+  h1 {
+    font-weight: 700;
+  }
+}
+
+.masthead-subtext {
+  font-weight: 400;
+  font-size: 36px;
+}
 
 
 /*--------------------------------------------------------------
@@ -55,7 +37,7 @@
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: left;
-  border: 2px solid #fff;
+  border: 3px solid #000;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -63,8 +45,12 @@
 .services .icon-box .grade-badge {
   text-align: left;
   padding: 10px 10px;
-  border: 1px solid #fff;
   top: -10px;
+}
+
+.services .icon-box .signup-badge {
+  margin: 10px;
+  float: right;
 }
 
 .services .icon-box .icon {
@@ -73,12 +59,12 @@
   padding: 20px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box .icon i {
-  color: #4582EC;
+  color: $black;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -90,30 +76,19 @@
 }
 
 .services .icon-box h4 a {
-  color: #5f687b;
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box .lead {
   padding: 0px 20px 10px 20px;
   line-height: 24px;
-  font-style: italic;
   margin-bottom: 0;
 }
 
 .services .icon-box .fa-ul {
-  padding: px 10px 10px 20px;
+  padding: 5px 15px 0px 5px;
   line-height: 24px;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   list-style-position: outside;
-}
-
-.services .icon-box:hover {
-  border-color: #eaecef;
-}
-
-.services .icon-box:hover h4 a {
-  color: #4582EC;
-  text-decoration: none;
 }
