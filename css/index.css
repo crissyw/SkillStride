@@ -225,7 +225,8 @@ section {
     position: relative;
     background-color: #ffffff;
     padding-top: 7rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0px;
   }
   .masthead .overlay {
     position: absolute;
@@ -251,12 +252,12 @@ section {
 
   .hero-img {
     display: block;
-    max-height: 360px;
+    max-height: 380px;
     width: auto;
     padding-left: 20px;
     padding-right: 0px;
     text-align: right;
-    margin: -20px 0 0 50px;
+    margin: -50px 0 0 50px;
     font-size: 0px;
   }
 }
@@ -313,7 +314,7 @@ section {
 
 @media (max-width: 524px) {
   .features-icons {
-    padding-top: 0rem;
+    padding-top: 3rem;
   }
 
   .features-icons-item {
@@ -331,7 +332,7 @@ section {
 @media (min-width: 768px) {
   .features-icons {
     background-color: #fff;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
   }
   .features-icons .features-icons-item {
