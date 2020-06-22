@@ -3,7 +3,8 @@
     position: relative;
     background-color: #ffffff;
     padding-top: 7rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0px;
     .overlay {
       position: absolute;
       background-color: white;
@@ -29,12 +30,12 @@
   }
   .hero-img {
       display: block;
-      max-height: 360px;
+      max-height: 380px;
       width: auto;
       padding-left: 20px;
       padding-right: 0px;
       text-align: right;
-      margin: -20px 0 0 50px;
+      margin: -50px 0 0 50px;
       font-size: 0px;
     } 
  
