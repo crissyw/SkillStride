@@ -265,7 +265,7 @@ section {
   .masthead {
     position: relative;
     background-color: #ffffff;
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-bottom: 0rem;
   }
   .masthead .overlay {
@@ -294,8 +294,10 @@ section {
 }
 @media (max-width: 992px) {
   .hero-img {
+    display: block;
     max-width: 100%;
     padding-top: 0px;
+    text-align: center;
   }
 }
 @media (max-width: 524px) {
@@ -375,7 +377,7 @@ section {
 }
 .carousel {
   margin: 20px auto;
-  padding: 0 70px;
+  padding: 0 40px;
 }
 
 .carousel .item {
@@ -606,8 +608,8 @@ footer.footer {
 .about p {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about ul {
@@ -695,76 +697,6 @@ footer.footer {
   margin: 0 2px;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-@media (min-width: 768px) {
-  .events-masthead {
-    position: relative;
-    background-color: #ffffff;
-    background: url("../img/events-topbanner-final.svg") no-repeat 95% 15%;
-    background-size: 600px 700px;
-    padding-top: 7rem;
-    padding-bottom: 10rem;
-    margin-bottom: 1rem;
-  }
-  .events-masthead .overlay {
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-
-  h1 {
-    font-weight: 700;
-  }
-
-  .events-masthead .masthead-subtext {
-    font-weight: 400;
-    font-size: 30px;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    padding-top: 0px;
-    padding-bottom: 10px;
-  }
-}
-@media (max-width: 576px) {
-  .events-masthead {
-    position: relative;
-    background-color: #ffffff;
-    background: url("../img/events-topbanner-final.svg") no-repeat;
-    background-position: 40px 310px;
-    background-size: 400px 400px;
-    padding-top: 7rem;
-    padding-bottom: 12rem;
-    margin-bottom: 1rem;
-  }
-  .events-masthead .overlay {
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-  .events-masthead h1 {
-    font-weight: 700;
-    font-size: 60px;
-  }
-
-  .events-masthead .masthead-subtext {
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    padding-top: 5px;
-    margin-bottom: 4rem;
-  }
-}
 /*--------------------------------------------------------------
 # Courses Services
 --------------------------------------------------------------*/
