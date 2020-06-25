@@ -8,7 +8,7 @@
     text-align: center;
     background: transparent;
     .features-icons-icon img {
-      height: 200px;
+      height: 170px;
     }
     &:hover {
       .features-icons-icon {
@@ -26,11 +26,11 @@
     padding-top: 3rem;
     padding-bottom: 5rem;
     .features-icons-item {
-      padding: 5px 5px;
+      padding: 5px 10px;
       text-align: center;
       background: transparent;
       .features-icons-icon img {
-        height: 200px;
+        height: 170px;
       }
       &:hover {
         .features-icons-icon {
@@ -55,7 +55,8 @@
       float: right;
       display: flex;
       justify-content: flex-end;
-      padding: 0px;    
+      padding: 0px;
+      text-align: center;    
     }
     
     .how-it-works-cta-banner .contact-us-text {
@@ -67,7 +68,8 @@
 
   .how-it-works-cta-banner .contact-us-text a {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
+    color: $black;
   }
 
   @media (max-width: 768px) {
@@ -84,3 +86,30 @@
       text-align: center;
     }
   }
+
+
+.find-out-how-it-works-btn {
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 8px 25px 10px 25px;
+  white-space: nowrap;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  line-height: 1;
+  border: 3px solid $secondary;
+  color: $black;
+  background: $secondary;
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  display: inline-block;
+}
+
+
+.find-out-how-it-works-btn:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: $secondary;
+  top: -3px;
+
+}
