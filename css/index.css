@@ -49,6 +49,32 @@ p {
 }
 
 /*--------------------------------------------------------------
+# Navbar 
+--------------------------------------------------------------*/
+.navbar {
+  margin-left: 142px;
+  margin-right: 142px;
+  padding: 8px 0px;
+}
+
+.the-navbar .navbar .navbar-nav a {
+  color: #000;
+}
+
+.the-navbar .navbar .navbar-nav a:hover {
+  border-bottom: 4px solid #2bcc9e;
+}
+
+.the-navbar .navbar .navbar-nav .active {
+  border-bottom: 4px solid #2bcc9e;
+}
+
+.the-navbar .navbar-nav .dropdown .btn {
+  padding: 8px;
+  border: none;
+}
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -93,7 +119,7 @@ section {
 # Nav Bar Contact Us Button
 --------------------------------------------------------------*/
 .nav-cta-btn {
-  margin-left: 25px;
+  margin-left: 20px;
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 1px;
