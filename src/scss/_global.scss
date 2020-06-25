@@ -44,10 +44,12 @@ p {
 /*--------------------------------------------------------------
 # Navbar 
 --------------------------------------------------------------*/
-.navbar {
+@media (min-width: 769px) {
+  .navbar {
   margin-left: 142px;
   margin-right: 142px;
-  padding: 8px 0px;
+  padding: 8px 15px;
+  }
 }
 
 .the-navbar .navbar .navbar-nav a {
