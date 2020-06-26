@@ -74,6 +74,18 @@
 }
 
 /*--------------------------------------------------------------
+# Banner Separator
+--------------------------------------------------------------*/
+
+.about-banner {
+  /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
+  background-size: cover; */
+  padding: 80px 10px;
+  background-color: $blue;
+  color: $black;
+}
+
+/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
