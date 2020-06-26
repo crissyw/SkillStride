@@ -54,9 +54,7 @@ p {
 --------------------------------------------------------------*/
 @media (min-width: 769px) {
   .navbar {
-    margin-left: 142px;
-    margin-right: 142px;
-    padding: 8px 15px;
+    padding: 8px 157px;
   }
 }
 .the-navbar .navbar .navbar-nav a.nav-link {
@@ -427,11 +425,16 @@ section {
 }
 
 .carousel .testimonial {
-  padding: 20px 0 10px;
+  padding: 10px 10px 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
 }
 
 .carousel .overview {
   font-style: italic;
+  font-size: 22px;
 }
 
 .carousel .overview b {
@@ -872,6 +875,52 @@ footer.footer {
 
 .faq .faq-list a.collapsed i::before {
   content: "" !important;
+}
+
+/*--------------------------------------------------------------
+# Tutors V2 Banner Version
+--------------------------------------------------------------*/
+.tutor-banner {
+  background-color: #000;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.tutor-banner .member-banner-image {
+  background: transparent;
+}
+
+.tutor-banner .member-banner-image img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.tutor-banner .member-banner-image .img-box {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.tutor-banner .member-banner-text h3 {
+  color: white;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.tutor-banner .member-banner-text h4 {
+  font-weight: 500;
+  line-height: 1.3;
+  font-size: 20px;
+  color: white;
+  margin-top: 24px;
 }
 
 /*--------------------------------------------------------------
