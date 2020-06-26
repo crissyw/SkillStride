@@ -22,12 +22,26 @@
 	display: block;
 	border-radius: 50%;
 }
-.carousel .testimonial {
-	padding: 10px 10px 10px;
-	margin-bottom: 15px;
-	font-size: 20px;
-	color: black;
-	font-weight: 500;
+
+
+@media (max-width: 768px) {
+	.carousel .testimonial {
+		padding: 8px 8px;
+		margin-bottom: 15px;
+		font-size: 16px;
+		color: black;
+		font-weight: 500;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel .testimonial {
+		padding: 10px 10px 10px;
+		margin-bottom: 15px;
+		font-size: 20px;
+		color: black;
+		font-weight: 500;
+}
 }
 .carousel .overview {
 	font-style: italic;
@@ -44,7 +58,7 @@
 	background: none;
 }
 .carousel-control i {
-    font-size: 68px;
+    font-size: 55px;
 	line-height: 42px;
     position: absolute;
     display: inline-block;
