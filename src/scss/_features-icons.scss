@@ -1,3 +1,7 @@
+.features-icons .features-icons-item p {
+  font-size: 16px;
+}
+
 @media (max-width: 524px) {
   .features-icons {
     padding-top: 3rem;
@@ -111,5 +115,4 @@
   text-decoration: none;
   background-color: $secondary;
   top: -3px;
-
 }

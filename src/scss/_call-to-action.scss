@@ -44,27 +44,29 @@
   font-weight: 600;
   letter-spacing: 1px;
   border: 0;
+  color: #000;
+  background-color: $secondary;
 ;
 
 }
 
 
 .cta-form .btn-group .btn {
-  border-color: black;
+  border-color: $black;
 }
 .cta-form .btn-group .active {
-    color: #fff;
-    background-color: $primary;
+    color: $black;
+    background-color: $secondary;
   }
 
 .cta-form .btn-group .btn:focus {
-  color: #fff;
-  background-color: $primary;
+  color: #000;
+  background-color: $secondary;
 }
   .cta-form .btn-group .btn:hover {
-    color: #fff;
-    background-color: $primary;
-    border-color: #1d2124; }
+    color: #000;
+    background-color: $secondary;
+    border-color: $black; }
     .cta-form .btn-group .btn:focus, .btn.focus {
-    background-color: $primary;
-    color: white; }
+    background-color: $secondary;
+    color: #000; }
