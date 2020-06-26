@@ -121,7 +121,7 @@ section {
   margin-left: 20px;
   font-weight: 700;
   letter-spacing: 1px;
-  border: 0;
+  border: 2px solid black;
   border-radius: 8px;
   padding: 8px 25px 10px 25px;
   white-space: nowrap;
@@ -171,9 +171,9 @@ section {
   border-radius: 8px;
   padding: 8px 25px 10px 25px;
   white-space: nowrap;
-  letter-spacing: 0.6px;
-  font-size: 18px;
-  line-height: 1;
+  letter-spacing: 0.55px;
+  font-size: 16px;
+  line-height: 1.5;
   border: 2px solid $secondary;
   color: $black;
   background: $secondary;
