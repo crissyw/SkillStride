@@ -536,24 +536,19 @@ section {
 }
 
 .cta-form .btn-group .active {
-  color: #000;
-  background-color: #2bcc9e;
+  color: #fff;
+  background-color: #000;
 }
 
 .cta-form .btn-group .btn:focus {
-  color: #000;
-  background-color: #2bcc9e;
+  color: #FFF;
+  background-color: #000;
 }
 
 .cta-form .btn-group .btn:hover {
-  color: #000;
-  background-color: #2bcc9e;
+  color: #FFF;
+  background-color: #000;
   border-color: #000;
-}
-
-.cta-form .btn-group .btn:focus, .btn.focus {
-  background-color: #2bcc9e;
-  color: #000;
 }
 
 /*--------------------------------------------------------------
