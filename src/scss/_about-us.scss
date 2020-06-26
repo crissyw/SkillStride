@@ -4,21 +4,33 @@
 --------------------------------------------------------------*/
 .about {
   padding: 10px 0;
-  background-color: $blue;
+  background-color: $white;
   text-align: center;
 }
 
-.about h2 {
-  font-weight: 600;
-  font-size: 32px;
-  text-align: center;
+@media (min-width: 768px) {
+  .about h1 {
+    text-align: right;
+  }
 }
+
+@media (max-width: 768px) {
+  .about h1 {
+    text-align: left;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+  }
+}
+
 
 .about p {
   padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .about ul {
@@ -69,18 +81,23 @@
 }
 
 .team p {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .team .member {
   text-align: center;
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 
 .team .member img {
   max-width: 100%;
-  margin: 0 0 20px 0;
+  margin: 10px 0px 20px 0px;
 }
 
 .team .member span {

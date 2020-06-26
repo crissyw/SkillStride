@@ -3,7 +3,7 @@
 # Courses Services
 --------------------------------------------------------------*/
 .services {
-  background-color: $green;
+  background-color: $yellow;
 }
 
 .services .icon-box {
@@ -14,6 +14,8 @@
   border-radius: 8px;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .services .icon-box .grade-badge {
@@ -26,6 +28,15 @@
 .services .icon-box .signup-badge {
   margin: 10px;
   float: right;
+  background: $green;
+  color: $black;
+  padding: 8px 20px 10px 20px;
+  letter-spacing: 0.55px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 2px solid $black;
+  
 }
 
 .services .icon-box .icon {
