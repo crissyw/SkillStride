@@ -125,7 +125,7 @@ section {
   margin-left: 20px;
   font-weight: 700;
   letter-spacing: 1px;
-  border: 2px solid black;
+  border: 2px solid #2bcc9e;
   border-radius: 8px;
   padding: 8px 25px 10px 25px;
   white-space: nowrap;
@@ -380,7 +380,7 @@ section {
   letter-spacing: 0.55px;
   font-size: 18px;
   line-height: 1.5;
-  border: 2px solid black;
+  border: 2px solid #2bcc9e;
   color: #000;
   background: #2bcc9e;
   position: relative;
@@ -526,7 +526,7 @@ section {
   padding: 8px 25px 10px 25px;
   font-weight: 600;
   letter-spacing: 1px;
-  border: 2px solid black;
+  border: 2px solid #2bcc9e;
   color: #000;
   background-color: #2bcc9e;
 }
@@ -737,6 +737,9 @@ footer.footer {
   border: 3px solid #000;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .services .icon-box .grade-badge {
@@ -785,11 +788,16 @@ footer.footer {
 }
 
 .services .icon-box .fa-ul {
-  padding: 5px 15px 0px 5px;
-  line-height: 30px;
+  padding: 5px 10px 10px 45px;
+  line-height: 1.5;
   font-size: 16px;
-  margin-bottom: 0px;
+  margin: 0px;
   list-style-position: outside;
+}
+
+.services .icon-box .fa-ul li {
+  line-height: 1.4;
+  padding: 10px 0px 5px 8px;
 }
 
 /*--------------------------------------------------------------
