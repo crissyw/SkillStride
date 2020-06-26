@@ -425,14 +425,24 @@ section {
   border-radius: 50%;
 }
 
-.carousel .testimonial {
-  padding: 10px 10px 10px;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: black;
-  font-weight: 500;
+@media (max-width: 768px) {
+  .carousel .testimonial {
+    padding: 8px 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+  }
 }
-
+@media (min-width: 768px) {
+  .carousel .testimonial {
+    padding: 10px 10px 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+  }
+}
 .carousel .overview {
   font-style: italic;
   font-size: 22px;
@@ -451,7 +461,7 @@ section {
 }
 
 .carousel-control i {
-  font-size: 68px;
+  font-size: 55px;
   line-height: 42px;
   position: absolute;
   display: inline-block;
@@ -692,7 +702,7 @@ footer.footer {
   /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
   background-size: cover; */
   padding: 80px 10px;
-  background-color: #6A9BF7;
+  background-color: #6899FA;
   color: #000;
 }
 
@@ -925,45 +935,57 @@ footer.footer {
   color: white;
 }
 
-.tutor-banner-2 {
-  background-color: #5658f8;
-  padding-bottom: 50px;
-  color: white;
-}
-
 .member-banner-image {
   background: transparent;
 }
 
-.member-banner-image img {
-  width: 250px;
-  height: 250px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 50%;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+@media (max-width: 768px) {
+  .member-banner-image img {
+    width: 150px;
+    height: 150px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
 }
-
+@media (min-width: 768px) {
+  .member-banner-image img {
+    width: 250px;
+    height: 250px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}
 .member-banner-image .img-box {
   border: 1px solid #ddd;
   border-radius: 50%;
   padding: 3px;
 }
 
-.member-banner-text h3 {
-  color: white;
-  font-weight: 500;
-  line-height: 1.2;
-  font-size: 30px;
-  padding: 5px;
+@media (max-width: 768px) {
+  .member-banner-text h3 {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+    padding: 5px;
+  }
 }
-
-.member-banner-text h4 {
-  font-weight: 500;
-  line-height: 1.3;
-  font-size: 20px;
-  color: white;
-  margin-top: 24px;
+@media (max-width: 768px) {
+  .member-banner-text h4 {
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 16px;
+    margin-top: 24px;
+  }
+}
+.tutor-banner-2 {
+  background-color: #2bcc9e;
+  padding-bottom: 50px;
 }
