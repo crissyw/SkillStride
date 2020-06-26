@@ -55,18 +55,16 @@
   border-color: $black;
 }
 .cta-form .btn-group .active {
-    color: $black;
-    background-color: $secondary;
+    color: $white;
+    background-color: $black;
   }
 
 .cta-form .btn-group .btn:focus {
-  color: #000;
-  background-color: $secondary;
+  color: #FFF;
+  background-color: $black;
 }
   .cta-form .btn-group .btn:hover {
-    color: #000;
-    background-color: $secondary;
+    color: #FFF;
+    background-color: $black;
     border-color: $black; }
-    .cta-form .btn-group .btn:focus, .btn.focus {
-    background-color: $secondary;
-    color: #000; }
+    
