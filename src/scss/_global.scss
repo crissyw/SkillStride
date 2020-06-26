@@ -84,6 +84,7 @@ section {
   text-align: center;
   padding: 8px 0;
   position: relative;
+  color: black;
 }
 
 .section-title h2 {
@@ -212,4 +213,11 @@ section {
 
 .features-icons .static:hover {
   opacity:0;
+}
+
+/*--------------------------------------------------------------
+# Overwriting Badge-Success
+--------------------------------------------------------------*/
+.badge-success {
+  color: black;
 }
