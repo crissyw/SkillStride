@@ -5,6 +5,51 @@ $bootstrap-lg: 992px;
 $bootstrap-xl: 1200px;
 
 /*--------------------------------------------------------------
+# Tutors V2 Banner Version
+--------------------------------------------------------------*/
+.tutor-banner {
+  background-color: $black;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.tutor-banner .member-banner-image {
+  background: transparent;
+  
+}
+
+
+.tutor-banner .member-banner-image img {
+  width:  250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.tutor-banner .member-banner-image .img-box {
+	border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.tutor-banner .member-banner-text h3 {
+  color: white;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.tutor-banner .member-banner-text h4 {
+  font-weight: 500;
+  line-height: 1.3;
+  font-size: 20px;  
+  color: white;
+  margin-top: 24px;
+}
+/*--------------------------------------------------------------
 # Tutors
 --------------------------------------------------------------*/
 .tutor {
