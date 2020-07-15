@@ -30,3 +30,13 @@ You must have npm installed globally in order to use this build environment.
 #### Deployment
 
 - Deploy with [GitHub Pages](https://dev.to/peaceiris/deploy-to-github-pages-with-github-actions-for-static-site-generator-1mo6#static-site-generators-with-nodejs)
+
+
+#### NOTES For PG
+- Open VS Code (visual studio code)
+- OPEN FOLDER (Skillstride)
+- Go to View -> Terminal
+- type: git pull
+- Now, it should say "Already up to date." OR something like 
+- type: npm start
+- Now, your "dev local environment webpage" will open on Chrome
