@@ -257,7 +257,7 @@ section {
     padding-left: 0px;
     padding-right: 0px;
     text-align: right;
-    margin: -30px 0 0 50px;
+    margin: 50px 0 0 120px;
     font-size: 0px;
   }
 }
@@ -637,7 +637,7 @@ footer.footer {
 --------------------------------------------------------------*/
 .about {
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #f8f9fa;
   text-align: center;
 }
 
@@ -656,11 +656,11 @@ footer.footer {
 .about p {
   padding-top: 10px;
   padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: block;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .about ul {
@@ -709,9 +709,13 @@ footer.footer {
 .about-banner {
   /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/cta-background.png") center center;
   background-size: cover; */
-  padding: 80px 10px;
-  background-color: #6899FA;
-  color: #000;
+  padding: 50px 10px;
+  background-color: #80E0C5;
+  color: black;
+}
+
+.about-banner h2 {
+  line-height: 1.2;
 }
 
 /*--------------------------------------------------------------
@@ -728,7 +732,7 @@ footer.footer {
   padding-right: 10px;
   display: block;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .team .member {
@@ -738,7 +742,7 @@ footer.footer {
 
 .team .member img {
   max-width: 100%;
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 .team .member span {
@@ -768,38 +772,42 @@ footer.footer {
 # Courses Services
 --------------------------------------------------------------*/
 section.events {
-  background: #f4aa16;
+  background: #9A9BFB;
 }
 
 .events .card {
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .events hr {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .events .card-event-badge {
   margin: 0;
   padding-bottom: 15px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .events .card-title {
   margin: 0;
   padding-bottom: 5px;
+  font-size: 20px;
 }
 
 .events .card-description {
-  font-weight: 500px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.2;
 }
 
 .events ul li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 .events .text-muted {
@@ -921,9 +929,9 @@ section.events {
 # Tutors V2 Banner Version
 --------------------------------------------------------------*/
 .tutor-banner-1 {
-  background-color: #000;
+  background-color: #9A9BFB;
   padding-bottom: 50px;
-  color: white;
+  color: black;
 }
 
 .member-banner-image {
@@ -977,6 +985,7 @@ section.events {
   }
 }
 .tutor-banner-2 {
-  background-color: #2bcc9e;
+  background-color: #80E0C5;
   padding-bottom: 50px;
+  color: black;
 }
