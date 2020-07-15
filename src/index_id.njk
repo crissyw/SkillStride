@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166262930-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-166262930-1');
-</script>
-<!-- /Global site tag (gtag.js) - Google Analytics -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Learn English Online">
   <meta name="author" content="Crystal Widjaja">
-  <link rel='icon' href='/img/favicon.ico' type='image/x-icon'/>
+  <link rel='icon' href='/img/favicon.ico' type='image/x-icon' />
 
-  <title>SkillStride — Belajar English Online</title>
+  <title>Edukita - Learn English Online</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +17,8 @@
   <!-- Custom fonts for this template -->
   <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template -->
   <link href="/css/index.min.css" rel="stylesheet">
@@ -44,268 +36,318 @@
 </head>
 
 <body>
-<!-- Navigation -->
-<nav class="navbar navbar-light navbar-expand-sm bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand py-0" href="/index.html">
-        <img src="/img/logo-side.png" class="d-inline-block align-bottom" alt=""></a>
-  
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <!-- Navbar links TODO: SET FORM TO INDONESIAN-->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto font-weight-bold">
-            <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/indonesia-flag.png"> ID
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					<a class="dropdown-item" href="/index.html"><img src="img/us-flag.png"> EN</a>
-				</div>
-			</li>
-          <li class="nav-item">
-            <a class="nav-link" href="/id_index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/about.html">About Us</a>
-          </li>
-          <li class="nav-item pl-4">
-            <a class="navbar-btn btn btn-primary font-weight-bold" href="#formspree-section">Contact Us</a>
-          </li>
-        </ul>
-      </div>
+  <!-- Navigation -->
+  <div class="container">
+    <div class="the-navbar">
+      <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light align-items-center">
+        <a href="/index_id.html" class="navbar-brand">
+          <img src="/img/edukita-logo.jpg" height="30" alt="edukita-logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav font-weight-bold">
+            <a href="/index_id.html" class="nav-item nav-link active">Home</a>
+            <a href="/how-it-works_id.html" class="nav-item nav-link">How it works</a>
+            <a href="/events_id.html" class="nav-item nav-link">Live classes</a>
+            <a href="/about_id.html" class="nav-item nav-link">About us</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <div class="dropdown">
+              <button class="btn btn-link font-weight-bold dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"> </i> Bahasa Indonesia
+              </button>
+              <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/index.html"> English</a>
+              </div>
+            </div>
+          </div>
+          <a class="nav-cta-btn" href="#formspree-section" data-toggle="collapse" data-target="#navbarCollapse">Contact
+            us</a>
+        </div>
+      </nav>
     </div>
-  </nav>
+  </div>
+
 
   <!-- Masthead -->
-  <header class="masthead text-white text-left">
-    <div class="overlay" id="home-top"></div>
+  <header class="masthead text-black text-left">
     <div class="container">
-      <div class="row">
-        <div class="col-xl-9">
-          <h1 class="mb-2">Gampang</h1>
-          <div class="row">
-            <div class="learn-more col-sm-3">
-              <a href="#formspree-section" class="btn btn-primary btn-lg" role="button">Learn more!</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <h5>
-                <small>Native English tutors.<br>Personalized lessons.<br>Anytime, anywhere.</small>
-              </h5>
-            </div>
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-6 col-lg-6">
+          <h1 class="display-3">English learning for everyone</h1>
+          <p class="masthead-subtext">Take online English classes with</p>
+          <p class="masthead-subtext">native speakers anywhere, anytime</p>
+          <img src="/img/home-top banner-final.png" class="img-fluid hero-img" alt="">
+        </div>
+        <!--Form-->
+        <div class="col-md-4 col-lg-4">
+          <div class="cta-form bg-white">
+            <form action="https://formspree.io/mqkygdvr" method="POST">
+              <div class="form-title">
+                <h3 class="text-center">Try Edukita for free!</h3>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" id="formspree-section" placeholder="First name"
+                    name="firstName"></div>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" id="formspree-section" placeholder="Last name"
+                    name="lastName"></div>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" placeholder="E-mail address" name="_replyto">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col"><input type="text" class="form-control" placeholder="Phone number" name="phone"></div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="customerType">I am a:</label><br>
+                <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+                  <label class="btn active">
+                    <input type="radio" name="Customer Type" value="parent" id="parent" autocomplete="Parent"
+                      checked=""> Parent
+                  </label>
+                  <label class="btn">
+                    <input type="radio" name="Customer Type" value="student" id="student" autocomplete="Student">
+                    Student
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="form-submit-btn btn-primary btn-block ">Contact us</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
+        <!--END Form-->
       </div>
     </div>
+    </div>
   </header>
-
-  <!-- // Our Mission <section class="mission bg-light text-left"> <div class="overlay"></div> <div class="container"> <div class="row"> <div class="col-xl-9 mx-auto"> <h1 class="mb-4">Our Mission</h1> <p class="font-italic lead mb-0">To empower Indonesians with the skills they need to succeed in a global economy.</p> <div class="row"> <div class="learn-more col-sm-3"> <button type="submit" class="btn btn-block btn-lg btn-primary">Learn more!</button> </div> </div> </div> </div> </section> -->
 
   <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
-    <div class="container">
-      <h4 class="mb-5 font-weight-light">SkillStride's live online classes, US-based tutors, and parent resources offers
-        students of all ages the opportunity to learn English with a personalized approach.</h4>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
+  <section class="features-icons text-center">
+    <div class="container ">
+      <div class="section-title">
+        <h2 class="mb-4">Why Edukita?</h2>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-lg-3  col-md-3">
+          <div class="features-icons-item mb-4">
+            <div class="features-icons-icon">
+              <img class="static" src="/img/index/home-nativespeakers-hover-static.png" height="25" alt="edukita-logo">
+              <img class="active" src="/img/index/home-nativespeakers-hover-gif.gif" height="25" alt="edukita-logo">
             </div>
-            <h3>Native Speakers</h3>
-            <p class="lead mb-0">Learn from the experts — our native English-speaking tutors!</p>
+            <h4>Native Speakers</h4>
+            <p>Learn from one of our qualified and personable coaches!</p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
+        <div class="col-lg-3 col-md-3">
+          <div class="features-icons-item mb-4">
+            <div class="features-icons-icon">
+              <img class="static" src="/img/index/home-anywhereanytime-static.png" height="25" alt="edukita-logo">
+              <img class="active" src="/img/index/home-anywhereanytime-gif.gif" height="25" alt="edukita-logo">
             </div>
-            <h3>Learn Anywhere</h3>
-            <p class="lead mb-0">Live online sessions from the comfort of your own home!</p>
+            <h4>Anywhere, Anytime</h4>
+            <p>Take online classes at a time and place that best suits you</p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
+        <div class="col-lg-3 col-md-3">
+          <div class="features-icons-item mb-4">
+            <div class="features-icons-icon">
+              <img class="static" src="/img/index/home-customprograms-static.png" height="25" alt="edukita-logo">
+              <img class="active" src="/img/index/home-customprograms-gif.gif" height="25" alt="edukita-logo">
             </div>
-            <h3>Get Results</h3>
-            <p class="lead mb-0">Customize your personalized learning plan with our engaging and interactive curriculum!
-            </p>
+            <h4>Custom Programs</h4>
+            <p>Mix and match writing, reading or speaking based on your goals</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- How It Works -->
-  <header class="bg-white text-left">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="display-3 text-left font-weight-bolder mt-5">How It Works</h1>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <section class="how-it-works">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters justify-content-between">
-        <div class="col-lg-7 order-lg-1 my-auto how-it-works-text">
-          <h2>Schedule a free consultation with an advisor</h2>
-          <p class="lead mb-0">Book a free 1-hour video session with a personal SkillStride advisor who will work with
-            you to understand your needs.</p>
-          <a href="#formspree-section" class="btn btn-primary btn-lg mt-3" role="button">Book now</a>
-        </div>
-        <div class="how-it-works col-lg-4 order-lg-2 mr-5">
-          <img class="img-fluid how-it-works" src="/img/laptop-showcase-1.png" alt="">
-        </div>
-      </div>
-      <div class="row no-gutters justify-content-between">
-        <div class="col-lg-7 order-lg-1 my-auto how-it-works-text">
-          <h2>Get matched to a native-English tutor on our online platform</h2>
-          <p class="lead mb-0">They'll be great.</p>
-          <a href="#formspree-section" class="btn btn-primary btn-lg mt-3" role="button">Find a tutor</a>
-        </div>
-        <div class="how-it-works col-lg-4 order-lg-2 mr-5">
-          <img class="img-fluid how-it-works" src="/img/woman-working-on-laptop-publicdomainvectors.jpg" alt="">
-        </div>
-      </div>
-      <div class="row no-gutters justify-content-between">
-        <div class="col-lg-7 order-lg-1 my-auto how-it-works-text">
-          <h2>Get personalized reports and updates on your progress</h2>
-          <p class="lead mb-0">You'll be speaking English like a pro in no time.</p>
-          <a href="#formspree-section" class="btn btn-primary btn-lg mt-3" role="button">Learn more</a>
-        </div>
-        <div class="how-it-works col-lg-4 order-lg-2 mr-5">
-          <img class="img-fluid how-it-works" src="/img/how-it-works-3.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /How it Works -->
-
-  <!-- Our Tutors -->
-  <section class="tutors text-center bg-light">
-    <div class="container">
-      <h2 class="mb-5">Our Tutors</h2>
-      <div class="row" id="tutor-gallery">
-        <div class="col-12 col-sm-6 col-lg-3 tutor-gallery-image">
-          <img class="image w-100" src="/img/team-2.jpeg">
-          <div class="tutor-gallery-text">
-            <div class="text">Peter Gumulia is a graduate of HBS and Georgia Tech.</div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 tutor-gallery-image">
-          <img class="image w-100" src="/img/team-1.jpg">
-          <div class="tutor-gallery-text">
-            <div class="text">Sean Widjaja is a graduate of something and Airbnb.</div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 tutor-gallery-image">
-          <img class="image w-100" src="/img/team-2.jpeg">
-          <div class="tutor-gallery-text">
-            <div class="text">Peter Gumulia has other tutors available.</div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3 tutor-gallery-image">
-          <img class="image w-100" src="/img/team-1.jpg">
-          <div class="tutor-gallery-text">
-            <div class="text">Sean tutors a lot.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END Our Tutors-->
-
-  <!-- Testimonials -->
-  <section class="testimonials text-center bg-white">
-    <div class="container">
-      <h2 class="mb-5">Testimonials</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Crystal W.</h5>
-            <p class="font-weight-light mb-0">"OMG I'm learning so much!"</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"I love learning from SkillStride."</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"I love learning online!"</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="call-to-action" id="formspree-section">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="cta-form col-md-5 col-lg-5 col-xl-5">
-          <!--Form-->
-          <div class="row">
-            <div class="col">
-              <h3 class="mb-4">Ready to learn?<br>Sign up now!</h3>
+        <div class="col-lg-3 col-md-3">
+          <div class="features-icons-item mb-4">
+            <div class="features-icons-icon">
+              <img class="static" src="/img/index/home-multipleformats-static.png" height="25" alt="edukita-logo">
+              <img class="active" src="/img/index/home-multipleformats-gif.gif" height="25" alt="edukita-logo">
             </div>
+            <h4>Multiple Formats</h4>
+            <p>Private or group lessons. The choice is yours!</p>
           </div>
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-          <script>
-            hbspt.forms.create({
-              portalId: "7474469",
-              formId: "1577aec0-29ae-479d-9d23-82c51e760938"
-            });
-          </script>
-          <!-- END Form -->
         </div>
       </div>
+
+      <div class="how-it-works-cta-banner row">
+        <div class="find-out-btn col-lg-4 align-items-center">
+          <a href="/how-it-works_id.html" class="find-out-how-it-works-btn" role="button">Find out how it works!</a>
+        </div>
+
+        <div class="contact-us-text col-lg-4 align-self-center my-1">
+          <a href="#formspree-section" class="btn" role="button"><i class="fa fa-chevron-circle-right"></i> Have
+            questions? Contact us</a>
+        </div>
+      </div>
+
+    </div>
   </section>
+
+
+  
+  <!-- ======= English Tutors Coach Section V2 ======= -->
+  <section id="tutor-banner" class="tutor-banner-1">
+    <div class="container">
+      <div class="member-banner row justify-content-between py-5 align-items-center">
+        <div class="col-md-3 d-flex">
+          <div class="member-banner-image mx-auto">
+            <div class="img-box img-responsive"><img src="img/teacher-2-brooke.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="member-banner-text col-md-7 my-3">
+          <h3>"Over the last 11 years, I have taught countless students in and outside of the United States.  I hold a Masters of Science in Literacy from the University of Dayton and a Bachelor of Arts in Elementary and Special Education from Providence College. I’m passionate about teaching Writing and Literature and look forward to working with many of you!"</h3>
+          <h4>— Brooke, Edukita English Coach</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Team Section -->
+
+
+  <!-- Testimonials-->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What our students and their parents have to say</h2>
+      </div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators are not here because I cannot figure out what is causing the 30px height-->
+
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <div class="img-box"><img src="/img/parent-2-jenny.jpeg" alt=""></div>
+            <p class="testimonial"><i class="fa fa-quote-left fa-1x"></i> English is becoming the 1st language for all.
+              I chose Edukita because of the quality of the program. It is very effective, organized, and well-designed.
+              Edukita also emphasizes the importance of practical skills, such as effective writing, that are immediately applicable to my child's life. I highly recommend
+              Edukita to anyone. <i class="fa fa-quote-right fa-1x"></i></p>
+            <p class="overview"><b>— Jenny</b>, parent of a student in 11th grade</p>
+          </div> 
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/img/student-ben.jpeg" alt=""></div>
+            <p class="testimonial"><i class="fa fa-quote-left fa-1x"></i> I have enrolled in other English programs in the past, but I have found Edukita’s approach to be most effective. Edukita’s program is super organized and pragmatic! Moreover, I appreciate how open minded my teacher is. 
+              He attentively listens to my concerns and always makes himself available whenever I have questions. <i class="fa fa-quote-right fa-1x"></i></p>
+            <p class="overview"><b>— Ben</b>, student in 11th grade</p>
+          </div>      
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/img/parent-1-joyce.jpg" alt=""></div>
+            <p class="testimonial"><i class="fa fa-quote-left fa-1x"></i> Learning the foundations of English is
+              extremely important for my child so she can be successful in her future study. I chose Edukita because it
+              offers high quality, experienced, and highly engaging teachers for my young child. Moreover, lessons can
+              be taken at the convenience of my own home. <i class="fa fa-quote-right fa-1x"></i></p>
+            <p class="overview"><b>— Joyce</b>, Parent of a student in 5th grade</p>
+          </div>  
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/img/student-nelson.jpeg" alt=""></div>
+            <p class="testimonial"><i class="fa fa-quote-left fa-1x"></i> At Edukita, I get to learn new and exciting things. I have learned so much about how to become a more proficient English speaker and writer. The skills I have acquired are applicable to my life in and outside of school. I also appreciate how patient and nurturing my teacher has been in every step of my learning journey. <i class="fa fa-quote-right fa-1x"></i></p>
+            <p class="overview"><b>— Nelson</b>, student in 9th grade</p>
+          </div>        
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/img/parent-lia.jfif" alt=""></div>
+            <p class="testimonial"><i class="fa fa-quote-left fa-1x"></i> Edukita provides an opportunity for my child to actively practice and learn English at an affordable price. 
+              Their assessment is very detailed and their teachers are excellent. 
+              I can see improvements in my child’s English. He became more confident in using the language on a day-to-day basis. 
+              <i  class="fa fa-quote-right fa-1x"></i></p>
+            <p class="overview"><b>— Lia</b>, Parent of a student in 11th grade</p>
+          </div>      
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/img/student-sandrine.jpeg" alt=""></div>
+            <p class="testimonial"><i class="fa fa-quote-left fa-1x"></i>  I like how my teacher constructed a lesson plan that matches my goals and needs. While the materials are sometimes challenging, they are always covered at a comfortable pace. In addition, 
+              my teacher is super fun and outgoing! She always goes above and beyond in making sure that every lesson is lively and engaging<i class="fa fa-quote-right fa-1x"></i></p>
+            <p class="overview"><b>— Sandrine</b>, student in 12th grade</p>
+          </div>
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/img/testimonials-1.jfif" alt=""></div>
+            <p class="testimonial"><i class="fa fa-quote-left fa-1x"></i> Mastering English is no longer optional my child’s
+              future. With Edukita, my child has been learning directly from an English coach who is a native speakers. He is fun, interactive, and approachable.
+              I can see the results immediately - my child has gotten a lot more confident since joining Edukita. <i
+                class="fa fa-quote-right fa-1x"></i></p>
+            <p class="overview"><b>— Nia</b>, Parent of a student in 9th grade</p>
+          </div>         
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======= English Tutors Coach Section V2 - Second Section ======= -->
+  <section id="tutor-banner" class="tutor-banner-2">
+    <div class="container">
+      <div class="member-banner row justify-content-between py-5 align-items-center">
+        <div class="col-md-3 d-flex">
+          <div class="member-banner-image mx-auto">
+            <div class="img-box"><img src="img/teacher-1-nathalie.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="member-banner-text col-md-7 my-3">
+          <h3>“I’m a passionate teacher from sunny San Diego, California, USA. I graduated with honors from Florida State University and have 5 years of experience working with children as a performer and English teacher. I’m excited to get to know you and help you reach your English goals.”
+          </h3>
+          <h4>— Nathalie, Edukita English Coach</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Team Section -->
+
+  <!-- ======= Cta Section ======= -->
+  <section id="cta" class="cta">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h2>Ready to get started?</h2>
+      </div>
+      <div class="row justify-content-center">
+        <p>Schedule a free consultation.</p>
+      </div>
+      <div class="row justify-content-center">
+        <a class="cta-btn" href="#formspree-section">Contact us</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Cta Section -->
 
   <!-- Footer -->
-  <footer class="footer bg-light">
+  <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
-              <a href="/about.html">About</a>
+              <a href="/about_id.html">About Us</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#formspree-section">Contact</a>
+              <a href="/how-it-works_id.html">How It Works</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <a href="/events_id.html">Events</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
               <a href="#">Privacy Policy</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; SkillStride 2020. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Edukita 2020. All Rights Reserved.</p>
         </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+        <!-- <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
               <a href="#">
@@ -323,14 +365,10 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
-
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7474469.js"></script>
-<!-- End of HubSpot Embed Code -->
 
 </body>
 
