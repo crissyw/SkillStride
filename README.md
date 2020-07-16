@@ -40,3 +40,11 @@ You must have npm installed globally in order to use this build environment.
 - Now, it should say "Already up to date." OR something like 
 - type: npm start
 - Now, your "dev local environment webpage" will open on Chrome
+
+#### PUSHING CHANGES
+- press ctrl+c
+- type: Y
+- type: git status
+- type: git add -A
+- type: git commit -m 'TYPE YOUR CHANGELOG MESSAGE HERE'
+- type: git push

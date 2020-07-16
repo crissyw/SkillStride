@@ -85,6 +85,15 @@
   color: black;
 }
 
+@media (max-width: 768px) {
+  .about-banner h2 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 30px;
+    padding: 3px;
+  }
+}
+
 .about-banner h2 {
   line-height: 1.2;
 }
