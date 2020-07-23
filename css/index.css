@@ -837,6 +837,19 @@ section.events {
   transition: all 0.2s;
 }
 
+.events .btn-disabled {
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 8px 25px 10px 25px;
+  white-space: nowrap;
+  letter-spacing: 0.55px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 2px solid #dee2e6;
+  color: #868e96;
+  background: #dee2e6;
+}
+
 /* Hover Effects on Card */
 @media (min-width: 992px) {
   .events .card:hover {
