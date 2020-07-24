@@ -523,15 +523,15 @@ section {
   padding-top: 15px;
   padding-right: 30px;
   border-radius: 0px;
-  border: black solid 4px;
+  border: #000 solid 4px;
 }
 
 .cta-form .form-row {
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .cta-form .form-title {
-  padding-bottom: 2px;
+  padding-bottom: 0px;
   padding-left: 15px;
   padding-top: 15px;
   padding-right: 15px;
