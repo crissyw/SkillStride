@@ -846,7 +846,8 @@ section.events {
   font-size: 16px;
   line-height: 1.5;
   border: 2px solid #dee2e6;
-  color: #868e96;
+  color: #000;
+  text-align: center;
   background: #dee2e6;
 }
 
